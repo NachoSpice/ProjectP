@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/GridDefault.png-78c0d4d52e2e837030b7f481eb2465d2.s3tc.stex"
-path.etc2="res://.import/GridDefault.png-78c0d4d52e2e837030b7f481eb2465d2.etc2.stex"
+path.s3tc="res://.import/stonex64.png-bd4b5c2e88baed6c548c5e0aa62255ca.s3tc.stex"
+path.etc2="res://.import/stonex64.png-bd4b5c2e88baed6c548c5e0aa62255ca.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Resources/Textures/PrototypeTerrain/GridDefault.png"
-dest_files=[ "res://.import/GridDefault.png-78c0d4d52e2e837030b7f481eb2465d2.s3tc.stex", "res://.import/GridDefault.png-78c0d4d52e2e837030b7f481eb2465d2.etc2.stex" ]
+source_file="res://Resources/Textures/PlaceHodlerTerrain/stonex64.png"
+dest_files=[ "res://.import/stonex64.png-bd4b5c2e88baed6c548c5e0aa62255ca.s3tc.stex", "res://.import/stonex64.png-bd4b5c2e88baed6c548c5e0aa62255ca.etc2.stex" ]
 
 [params]
 
@@ -22,7 +22,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
-flags/filter=false
+flags/filter=true
 flags/mipmaps=true
 flags/anisotropic=false
 flags/srgb=1

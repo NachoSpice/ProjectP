@@ -218,7 +218,7 @@ window/size/fullscreen=true
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/qodot/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/CSGStairs/plugin.cfg", "res://addons/qodot/plugin.cfg" )
 
 [input]
 
