@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Resources/Materials/Prototype/DefaultGrid.tres" type="Material" id=1]
+[ext_resource path="res://Resources/Materials/Prototype/OrangeGrid.tres" type="Material" id=2]
+[ext_resource path="res://Resources/Textures/PrototypeTerrain/GridDefault.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/Entities/Player.tscn" type="PackedScene" id=4]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_texture = ExtResource( 3 )
+
+[node name="Spatial" type="Spatial"]
+
+[node name="CSGCombiner" type="CSGCombiner" parent="."]
+use_collision = true
+
+[node name="CSGBox" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0 )
+width = 32.0
+depth = 32.0
+material = ExtResource( 1 )
+
+[node name="CSGBox2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 15 )
+width = 32.0
+height = 8.0
+material = ExtResource( 1 )
+
+[node name="CSGBox3" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 4, 0 )
+height = 8.0
+depth = 32.0
+material = ExtResource( 1 )
+
+[node name="CSGBox4" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 4, 0 )
+operation = 2
+width = 4.0
+height = 4.0
+depth = 14.0
+material = SubResource( 1 )
+
+[node name="CSGPolygon" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 0 )
+polygon = PoolVector2Array( -1, 0, -1, 5, 6, 5, 15, 0 )
+depth = 15.98
+material = ExtResource( 2 )
+
+[node name="Player" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.7537, 0, 0 )
