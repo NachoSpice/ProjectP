@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=2]
+
+[sub_resource type="CapsuleMesh" id=1]
+mid_height = 2.0
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_unshaded = true
+albedo_color = Color( 0.478431, 0.901961, 0.623529, 1 )
+
+[sub_resource type="CapsuleShape" id=3]
+height = 2.0
+
+[sub_resource type="CylinderShape" id=4]
+radius = 0.773033
+
+[node name="Player" type="KinematicBody"]
+
+[node name="PlayerMesh" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2, 0 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 2 )
+
+[node name="PlayerCollider" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2, 0 )
+shape = SubResource( 3 )
+
+[node name="FootCollider" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+shape = SubResource( 4 )
+
+[node name="Head" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.00157, 0 )
+
+[node name="Camera" type="Camera" parent="Head"]
+
+[node name="GroundCHK" type="RayCast" parent="."]
+enabled = true
