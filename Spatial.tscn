@@ -471,7 +471,7 @@ shape = SubResource( 63 )
 shape = SubResource( 64 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.6014, 0, 17.4399 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.9528, 0, -61.8354 )
 
 [node name="CSGCombiner" type="CSGCombiner" parent="."]
 use_collision = true
