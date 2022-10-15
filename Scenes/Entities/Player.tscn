@@ -31,3 +31,8 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.00157, 0 )
 
 [node name="GroundCHK" type="RayCast" parent="."]
 enabled = true
+
+[node name="OmniLight" type="OmniLight" parent="."]
+light_energy = 2.244
+omni_range = 33.1999
+omni_attenuation = 0.233258

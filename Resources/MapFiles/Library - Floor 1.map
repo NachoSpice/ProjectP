@@ -3,15 +3,15 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_tb_textures" "textures;textures/PlaceHodlerTerrain;textures/bibloteka Łendi;textures/bibloteka wendy"
+"_tb_textures" "textures;textures/PlaceHodlerTerrain"
 // brush 0
 {
-( -1088 1168 0 ) ( -1088 -1168 0 ) ( -1088 -1168 -32 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( -1088 -1168 0 ) ( 1088 -1168 0 ) ( 1088 -1168 -32 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 -1168 -32 ) ( 1088 1168 -32 ) ( -1088 1168 -32 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( -1088 1168 0 ) ( 1088 1168 0 ) ( 1088 -1168 0 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 1168 -32 ) ( 1088 1168 0 ) ( -1088 1168 0 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 -1168 0 ) ( 1088 1168 0 ) ( 1088 1168 -32 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
+( -1088 1168 0 ) ( -1088 -1168 0 ) ( -1088 -1168 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 -1168 0 ) ( 1088 -1168 0 ) ( 1088 -1168 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1168 -32 ) ( 1088 1168 -32 ) ( -1088 1168 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1168 0 ) ( 1088 1168 0 ) ( 1088 -1168 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 1168 -32 ) ( 1088 1168 0 ) ( -1088 1168 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1168 0 ) ( 1088 1168 0 ) ( 1088 1168 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
 }
 // brush 1
 {
@@ -303,30 +303,30 @@
 }
 // brush 33
 {
-( 960 304 288 ) ( 960 336 288 ) ( 960 336 416 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 304 288 ) ( 544 304 288 ) ( 544 304 416 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 -1168 256 ) ( 1088 1168 256 ) ( -1088 1168 256 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( -1088 1168 288 ) ( 1088 1168 288 ) ( 1088 -1168 288 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 560 288 ) ( 1056 560 416 ) ( 1056 560 288 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 -1168 288 ) ( 1088 1168 288 ) ( 1088 1168 256 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
+( 960 304 288 ) ( 960 336 288 ) ( 960 336 416 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 304 288 ) ( 544 304 288 ) ( 544 304 416 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1168 256 ) ( 1088 1168 256 ) ( -1088 1168 256 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1168 288 ) ( 1088 1168 288 ) ( 1088 -1168 288 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 560 288 ) ( 1056 560 416 ) ( 1056 560 288 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1168 288 ) ( 1088 1168 288 ) ( 1088 1168 256 ) PlaceHodlerTerrain/planks 0 0 0 1 1
 }
 // brush 34
 {
-( 640 560 160 ) ( 640 304 160 ) ( 640 304 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 560 160 ) ( 960 560 288 ) ( 960 304 288 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 304 160 ) ( 960 304 288 ) ( 960 304 256 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 960 560 256 ) ( 960 560 288 ) ( 640 560 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 560 128 ) ( 640 304 128 ) ( 960 304 256 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 960 304 288 ) ( 960 560 288 ) ( 960 560 256 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
+( 640 560 160 ) ( 640 304 160 ) ( 640 304 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 560 160 ) ( 960 560 288 ) ( 960 304 288 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 304 160 ) ( 960 304 288 ) ( 960 304 256 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 960 560 256 ) ( 960 560 288 ) ( 640 560 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 560 128 ) ( 640 304 128 ) ( 960 304 256 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 960 304 288 ) ( 960 560 288 ) ( 960 560 256 ) PlaceHodlerTerrain/planks 0 0 0 1 1
 }
 // brush 35
 {
-( -1088 560 160 ) ( -1088 304 160 ) ( -1088 304 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( -1088 304 160 ) ( 640 304 160 ) ( 640 304 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 304 128 ) ( 640 560 128 ) ( -1088 560 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( -1088 560 160 ) ( 640 560 160 ) ( 640 304 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 560 128 ) ( 640 560 160 ) ( -1088 560 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 304 160 ) ( 640 560 160 ) ( 640 560 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
+( -1088 560 160 ) ( -1088 304 160 ) ( -1088 304 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 304 160 ) ( 640 304 160 ) ( 640 304 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 304 128 ) ( 640 560 128 ) ( -1088 560 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 560 160 ) ( 640 560 160 ) ( 640 304 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 560 128 ) ( 640 560 160 ) ( -1088 560 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 304 160 ) ( 640 560 160 ) ( 640 560 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
 }
 // brush 36
 {
@@ -348,39 +348,39 @@
 }
 // brush 38
 {
-( -1088 560 160 ) ( -1088 592 128 ) ( -1088 592 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 560 160 ) ( -1088 560 128 ) ( -1088 560 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 592 128 ) ( -1088 560 128 ) ( 640 560 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 592 160 ) ( -1088 560 160 ) ( -1088 592 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 592 160 ) ( -1088 592 128 ) ( 640 592 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 592 160 ) ( 640 560 128 ) ( 640 560 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
+( -1088 560 160 ) ( -1088 592 128 ) ( -1088 592 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 560 160 ) ( -1088 560 128 ) ( -1088 560 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 592 128 ) ( -1088 560 128 ) ( 640 560 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 592 160 ) ( -1088 560 160 ) ( -1088 592 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 592 160 ) ( -1088 592 128 ) ( 640 592 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 592 160 ) ( 640 560 128 ) ( 640 560 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
 }
 // brush 39
 {
-( -1088 272 160 ) ( -1088 304 128 ) ( -1088 304 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 272 160 ) ( -1088 272 128 ) ( -1088 272 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 304 128 ) ( -1088 272 128 ) ( 640 272 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 304 160 ) ( -1088 272 160 ) ( -1088 304 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 304 160 ) ( -1088 304 128 ) ( 640 304 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 640 304 160 ) ( 640 272 128 ) ( 640 272 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
+( -1088 272 160 ) ( -1088 304 128 ) ( -1088 304 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 272 160 ) ( -1088 272 128 ) ( -1088 272 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 304 128 ) ( -1088 272 128 ) ( 640 272 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 304 160 ) ( -1088 272 160 ) ( -1088 304 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 304 160 ) ( -1088 304 128 ) ( 640 304 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 640 304 160 ) ( 640 272 128 ) ( 640 272 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
 }
 // brush 40
 {
-( -1088 1136 160 ) ( -1088 -1200 160 ) ( -1088 -1200 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( -1088 -1168 160 ) ( -1056 -1168 288 ) ( -1056 -1168 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 -1200 128 ) ( 1088 1136 128 ) ( -1088 1136 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( -1088 1136 160 ) ( 1088 1136 160 ) ( 1088 -1200 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 272 160 ) ( 544 272 288 ) ( 544 272 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 -1200 160 ) ( 1088 1136 160 ) ( 1088 1136 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
+( -1088 1136 160 ) ( -1088 -1200 160 ) ( -1088 -1200 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 -1168 160 ) ( -1056 -1168 288 ) ( -1056 -1168 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1200 128 ) ( 1088 1136 128 ) ( -1088 1136 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1136 160 ) ( 1088 1136 160 ) ( 1088 -1200 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 272 160 ) ( 544 272 288 ) ( 544 272 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1200 160 ) ( 1088 1136 160 ) ( 1088 1136 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
 }
 // brush 41
 {
-( -1088 1200 160 ) ( -1088 -1136 160 ) ( -1088 -1136 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 592 160 ) ( 1056 592 160 ) ( 1056 592 288 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 -1136 128 ) ( 1088 1200 128 ) ( -1088 1200 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( -1088 1200 160 ) ( 1088 1200 160 ) ( 1088 -1136 160 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( -1088 1168 160 ) ( -1056 1168 160 ) ( -1056 1168 288 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
-( 1088 -1136 160 ) ( 1088 1200 160 ) ( 1088 1200 128 ) "bibloteka wendy/biblioteka_wendy_deski" 0 0 0 1 1
+( -1088 1200 160 ) ( -1088 -1136 160 ) ( -1088 -1136 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 592 160 ) ( 1056 592 160 ) ( 1056 592 288 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1136 128 ) ( 1088 1200 128 ) ( -1088 1200 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1200 160 ) ( 1088 1200 160 ) ( 1088 -1136 160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1168 160 ) ( -1056 1168 160 ) ( -1056 1168 288 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1136 160 ) ( 1088 1200 160 ) ( 1088 1200 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
 }
 // brush 42
 {
