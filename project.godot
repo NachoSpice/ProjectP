@@ -207,7 +207,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Project P"
-run/main_scene="res://Scenes/Levels/DebugRoom.tscn"
+run/main_scene="res://Spatial.tscn"
 config/icon="res://icon.png"
 
 [display]

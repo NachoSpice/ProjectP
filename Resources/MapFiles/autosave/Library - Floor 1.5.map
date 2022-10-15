@@ -1,0 +1,385 @@
+// Game: PokkaGame
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/PlaceHodlerTerrain;textures/PrototypeTerrain"
+// brush 0
+{
+( -1088 1168 0 ) ( -1088 -1168 0 ) ( -1088 -1168 -32 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( -1088 -1168 0 ) ( 1088 -1168 0 ) ( 1088 -1168 -32 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 -1168 -32 ) ( 1088 1168 -32 ) ( -1088 1168 -32 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( -1088 1168 0 ) ( 1088 1168 0 ) ( 1088 -1168 0 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 1168 -32 ) ( 1088 1168 0 ) ( -1088 1168 0 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 -1168 0 ) ( 1088 1168 0 ) ( 1088 1168 -32 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+}
+// brush 1
+{
+( -1088 -1136 128 ) ( -1088 -1168 128 ) ( -1088 -1168 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 -1168 128 ) ( 1088 -1168 128 ) ( 1088 -1168 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1168 0 ) ( 1088 -1136 0 ) ( -1088 -1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 -1136 128 ) ( 1088 -1136 128 ) ( 1088 -1168 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1136 0 ) ( 1088 -1136 128 ) ( -1088 -1136 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1168 128 ) ( 1088 -1136 128 ) ( 1088 -1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 2
+{
+( -1088 1168 128 ) ( -1088 1136 128 ) ( -1088 1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 1136 128 ) ( 1088 1136 128 ) ( 1088 1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 1136 0 ) ( 1088 1168 0 ) ( -1088 1168 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 1168 128 ) ( 1088 1168 128 ) ( 1088 1136 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 1168 0 ) ( 1088 1168 128 ) ( -1088 1168 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 1136 128 ) ( 1088 1168 128 ) ( 1088 1168 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 3
+{
+( 1056 1136 128 ) ( 1056 -1136 128 ) ( 1056 -1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 -1136 128 ) ( 1088 -1136 128 ) ( 1088 -1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1136 0 ) ( 1088 1136 0 ) ( 1056 1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 1136 128 ) ( 1088 1136 128 ) ( 1088 -1136 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 1136 0 ) ( 1088 1136 128 ) ( 1056 1136 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1136 128 ) ( 1088 1136 128 ) ( 1088 1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 4
+{
+( -1088 -496 128 ) ( -1088 -1136 128 ) ( -1088 -1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 -1136 128 ) ( -1056 -1136 128 ) ( -1056 -1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -1136 0 ) ( -1056 -496 0 ) ( -1088 -496 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 -496 128 ) ( -1056 -496 128 ) ( -1056 -1136 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -496 0 ) ( -1056 -496 128 ) ( -1088 -496 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -1136 128 ) ( -1056 -496 128 ) ( -1056 -496 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 5
+{
+( -1088 1136 128 ) ( -1088 -336 128 ) ( -1088 -336 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 -336 128 ) ( -1056 -336 128 ) ( -1056 -336 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -336 0 ) ( -1056 1136 0 ) ( -1088 1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 1136 128 ) ( -1056 1136 128 ) ( -1056 -336 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 1136 0 ) ( -1056 1136 128 ) ( -1088 1136 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -336 128 ) ( -1056 1136 128 ) ( -1056 1136 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 6
+{
+( -1056 -272 128 ) ( -1056 -304 128 ) ( -1056 -304 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -1056 -304 128 ) ( -576 -304 128 ) ( -576 -304 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -576 -304 0 ) ( -576 -272 0 ) ( -1056 -272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -1056 -272 128 ) ( -576 -272 128 ) ( -576 -304 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -576 -272 0 ) ( -576 -272 128 ) ( -1056 -272 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -576 -304 128 ) ( -576 -272 128 ) ( -576 -272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 7
+{
+( -576 -272 128 ) ( -576 -976 128 ) ( -576 -976 0 ) PlaceHodlerTerrain/bookshelfx32 17 0 0 0.9 1
+( -576 -976 128 ) ( -544 -976 128 ) ( -544 -976 0 ) PlaceHodlerTerrain/bookshelfx32 17 0 0 0.9 1
+( -544 -976 0 ) ( -544 -272 0 ) ( -576 -272 0 ) PlaceHodlerTerrain/bookshelfx32 17 0 0 0.9 1
+( -576 -272 128 ) ( -544 -272 128 ) ( -544 -976 128 ) PlaceHodlerTerrain/bookshelfx32 17 0 0 0.9 1
+( -544 -272 0 ) ( -544 -272 128 ) ( -576 -272 128 ) PlaceHodlerTerrain/bookshelfx32 17 0 0 0.9 1
+( -544 -976 128 ) ( -544 -272 128 ) ( -544 -272 0 ) PlaceHodlerTerrain/bookshelfx32 17 0 0 0.9 1
+}
+// brush 8
+{
+( -384 -944 128 ) ( -384 -1136 128 ) ( -384 -1136 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -384 -1136 128 ) ( -352 -1136 128 ) ( -352 -1136 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -352 -1136 0 ) ( -352 -944 0 ) ( -384 -944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -384 -944 128 ) ( -352 -944 128 ) ( -352 -1136 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -352 -944 0 ) ( -352 -944 128 ) ( -384 -944 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -352 -1136 128 ) ( -352 -944 128 ) ( -352 -944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 9
+{
+( -352 -944 128 ) ( -352 -976 128 ) ( -352 -976 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -352 -976 128 ) ( 704 -976 128 ) ( 704 -976 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 704 -976 0 ) ( 704 -944 0 ) ( -352 -944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -352 -944 128 ) ( 704 -944 128 ) ( 704 -976 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 704 -944 0 ) ( 704 -944 128 ) ( -352 -944 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 704 -976 128 ) ( 704 -944 128 ) ( 704 -944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 10
+{
+( -544 -752 128 ) ( -544 -784 128 ) ( -544 -784 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -544 -784 128 ) ( 896 -784 128 ) ( 896 -784 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 896 -784 0 ) ( 896 -752 0 ) ( -544 -752 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -544 -752 128 ) ( 896 -752 128 ) ( 896 -784 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 896 -752 0 ) ( 896 -752 128 ) ( -544 -752 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 896 -784 128 ) ( 896 -752 128 ) ( 896 -752 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 11
+{
+( -544 -560 128 ) ( -544 -592 128 ) ( -544 -592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -544 -592 128 ) ( -192 -592 128 ) ( -192 -592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -192 -592 0 ) ( -192 -560 0 ) ( -544 -560 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -544 -560 128 ) ( -192 -560 128 ) ( -192 -592 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -192 -560 0 ) ( -192 -560 128 ) ( -544 -560 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -192 -592 128 ) ( -192 -560 128 ) ( -192 -560 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 12
+{
+( -32 -560 128 ) ( -32 -592 128 ) ( -32 -592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -32 -592 128 ) ( 1056 -592 128 ) ( 1056 -592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 -592 0 ) ( 1056 -560 0 ) ( -32 -560 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -32 -560 128 ) ( 1056 -560 128 ) ( 1056 -592 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 -560 0 ) ( 1056 -560 128 ) ( -32 -560 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 -592 128 ) ( 1056 -560 128 ) ( 1056 -560 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 13
+{
+( 320 -400 128 ) ( 320 -432 128 ) ( 320 -432 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 320 -432 128 ) ( 1056 -432 128 ) ( 1056 -432 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 -432 0 ) ( 1056 -400 0 ) ( 320 -400 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 320 -400 128 ) ( 1056 -400 128 ) ( 1056 -432 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 -400 0 ) ( 1056 -400 128 ) ( 320 -400 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 -432 128 ) ( 1056 -400 128 ) ( 1056 -400 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 14
+{
+( 32 -80 128 ) ( 32 -112 128 ) ( 32 -112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 32 -112 128 ) ( 1056 -112 128 ) ( 1056 -112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 -112 0 ) ( 1056 -80 0 ) ( 32 -80 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 32 -80 128 ) ( 1056 -80 128 ) ( 1056 -112 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 -80 0 ) ( 1056 -80 128 ) ( 32 -80 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 -112 128 ) ( 1056 -80 128 ) ( 1056 -80 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 15
+{
+( 768 -112 128 ) ( 768 -272 128 ) ( 768 -272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 768 -272 128 ) ( 800 -272 128 ) ( 800 -272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 800 -272 0 ) ( 800 -112 0 ) ( 768 -112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 768 -112 128 ) ( 800 -112 128 ) ( 800 -272 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 800 -112 0 ) ( 800 -112 128 ) ( 768 -112 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 800 -272 128 ) ( 800 -112 128 ) ( 800 -112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 16
+{
+( -384 -272 128 ) ( -384 -304 128 ) ( -384 -304 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -384 -304 128 ) ( 128 -304 128 ) ( 128 -304 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 128 -304 0 ) ( 128 -272 0 ) ( -384 -272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -384 -272 128 ) ( 128 -272 128 ) ( 128 -304 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 128 -272 0 ) ( 128 -272 128 ) ( -384 -272 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 128 -304 128 ) ( 128 -272 128 ) ( 128 -272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 17
+{
+( 128 -272 128 ) ( 128 -560 128 ) ( 128 -560 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 128 -560 128 ) ( 160 -560 128 ) ( 160 -560 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 160 -560 0 ) ( 160 -272 0 ) ( 128 -272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 128 -272 128 ) ( 160 -272 128 ) ( 160 -560 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 160 -272 0 ) ( 160 -272 128 ) ( 128 -272 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 160 -560 128 ) ( 160 -272 128 ) ( 160 -272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 18
+{
+( -896 -80 128 ) ( -896 -112 128 ) ( -896 -112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -896 -112 128 ) ( -128 -112 128 ) ( -128 -112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -128 -112 0 ) ( -128 -80 0 ) ( -896 -80 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -896 -80 128 ) ( -128 -80 128 ) ( -128 -112 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -128 -80 0 ) ( -128 -80 128 ) ( -896 -80 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -128 -112 128 ) ( -128 -80 128 ) ( -128 -80 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 19
+{
+( -896 976 128 ) ( -896 -80 128 ) ( -896 -80 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -896 -80 128 ) ( -864 -80 128 ) ( -864 -80 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -864 -80 0 ) ( -864 976 0 ) ( -896 976 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -896 976 128 ) ( -864 976 128 ) ( -864 -80 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -864 976 0 ) ( -864 976 128 ) ( -896 976 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -864 -80 128 ) ( -864 976 128 ) ( -864 976 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 20
+{
+( 736 976 128 ) ( 736 944 128 ) ( 736 944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 736 944 128 ) ( 1056 944 128 ) ( 1056 944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 944 0 ) ( 1056 976 0 ) ( 736 976 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 736 976 128 ) ( 1056 976 128 ) ( 1056 944 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 976 0 ) ( 1056 976 128 ) ( 736 976 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 944 128 ) ( 1056 976 128 ) ( 1056 976 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 21
+{
+( -864 976 128 ) ( -864 944 128 ) ( -864 944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -864 944 128 ) ( 384 944 128 ) ( 384 944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 384 944 0 ) ( 384 976 0 ) ( -864 976 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -864 976 128 ) ( 384 976 128 ) ( 384 944 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 384 976 0 ) ( 384 976 128 ) ( -864 976 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 384 944 128 ) ( 384 976 128 ) ( 384 976 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 22
+{
+( -864 112 128 ) ( -864 80 128 ) ( -864 80 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -864 80 128 ) ( 1056 80 128 ) ( 1056 80 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 80 0 ) ( 1056 112 0 ) ( -864 112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -864 112 128 ) ( 1056 112 128 ) ( 1056 80 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 112 0 ) ( 1056 112 128 ) ( -864 112 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 80 128 ) ( 1056 112 128 ) ( 1056 112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 23
+{
+( 544 944 128 ) ( 544 784 128 ) ( 544 784 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 544 784 128 ) ( 576 784 128 ) ( 576 784 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 576 784 0 ) ( 576 944 0 ) ( 544 944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 544 944 128 ) ( 576 944 128 ) ( 576 784 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 576 944 0 ) ( 576 944 128 ) ( 544 944 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 576 784 128 ) ( 576 944 128 ) ( 576 944 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 24
+{
+( -704 784 128 ) ( -704 752 128 ) ( -704 752 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -704 752 128 ) ( 1056 752 128 ) ( 1056 752 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 752 0 ) ( 1056 784 0 ) ( -704 784 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -704 784 128 ) ( 1056 784 128 ) ( 1056 752 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 784 0 ) ( 1056 784 128 ) ( -704 784 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( 1056 752 128 ) ( 1056 784 128 ) ( 1056 784 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 25
+{
+( -704 336 128 ) ( -704 112 128 ) ( -704 112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -704 112 128 ) ( -672 112 128 ) ( -672 112 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -672 112 0 ) ( -672 336 0 ) ( -704 336 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -704 336 128 ) ( -672 336 128 ) ( -672 112 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -672 336 0 ) ( -672 336 128 ) ( -704 336 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -672 112 128 ) ( -672 336 128 ) ( -672 336 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 26
+{
+( -704 752 128 ) ( -704 528 128 ) ( -704 528 0 ) PlaceHodlerTerrain/bookshelfx32 -16 0 0 1 1
+( -704 528 128 ) ( -672 528 128 ) ( -672 528 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -672 528 0 ) ( -672 752 0 ) ( -704 752 0 ) PlaceHodlerTerrain/bookshelfx32 0 16 0 1 1
+( -704 752 128 ) ( -672 752 128 ) ( -672 528 128 ) PlaceHodlerTerrain/bookshelfx32 0 16 0 1 1
+( -672 752 0 ) ( -672 752 128 ) ( -704 752 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -672 528 128 ) ( -672 752 128 ) ( -672 752 0 ) PlaceHodlerTerrain/bookshelfx32 -16 0 0 1 1
+}
+// brush 27
+{
+( -512 592 128 ) ( -512 272 128 ) ( -512 272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -512 272 128 ) ( -480 272 128 ) ( -480 272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -480 272 0 ) ( -480 592 0 ) ( -512 592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -512 592 128 ) ( -480 592 128 ) ( -480 272 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -480 592 0 ) ( -480 592 128 ) ( -512 592 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -480 272 128 ) ( -480 592 128 ) ( -480 592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 28
+{
+( -320 592 128 ) ( -320 272 128 ) ( -320 272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -320 272 128 ) ( -288 272 128 ) ( -288 272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -288 272 0 ) ( -288 592 0 ) ( -320 592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -320 592 128 ) ( -288 592 128 ) ( -288 272 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -288 592 0 ) ( -288 592 128 ) ( -320 592 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -288 272 128 ) ( -288 592 128 ) ( -288 592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 29
+{
+( -128 592 128 ) ( -128 272 128 ) ( -128 272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -128 272 128 ) ( -96 272 128 ) ( -96 272 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -96 272 0 ) ( -96 592 0 ) ( -128 592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -128 592 128 ) ( -96 592 128 ) ( -96 272 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -96 592 0 ) ( -96 592 128 ) ( -128 592 128 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+( -96 272 128 ) ( -96 592 128 ) ( -96 592 0 ) PlaceHodlerTerrain/bookshelfx32 0 0 0 1 1
+}
+// brush 30
+{
+( 64 592 128 ) ( 64 272 128 ) ( 64 272 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 64 272 128 ) ( 96 272 128 ) ( 96 272 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 96 272 0 ) ( 96 592 0 ) ( 64 592 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 64 592 128 ) ( 96 592 128 ) ( 96 272 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 96 592 0 ) ( 96 592 128 ) ( 64 592 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 96 272 128 ) ( 96 592 128 ) ( 96 592 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 31
+{
+( 96 560 128 ) ( 96 592 0 ) ( 96 592 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 560 128 ) ( 96 560 0 ) ( 96 560 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 592 0 ) ( 96 560 0 ) ( 1056 560 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 592 128 ) ( 96 560 128 ) ( 96 592 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 592 128 ) ( 96 592 0 ) ( 1056 592 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 592 128 ) ( 1056 560 0 ) ( 1056 560 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 32
+{
+( 256 272 128 ) ( 256 304 0 ) ( 256 304 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 272 128 ) ( 256 272 0 ) ( 256 272 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 304 0 ) ( 256 272 0 ) ( 1056 272 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 304 128 ) ( 256 272 128 ) ( 256 304 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 304 128 ) ( 256 304 0 ) ( 1056 304 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 304 128 ) ( 1056 272 0 ) ( 1056 272 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 33
+{
+( 960 304 288 ) ( 960 336 288 ) ( 960 336 416 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 304 288 ) ( 544 304 288 ) ( 544 304 416 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 -1168 256 ) ( 1088 1168 256 ) ( -1088 1168 256 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( -1088 1168 288 ) ( 1088 1168 288 ) ( 1088 -1168 288 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 560 288 ) ( 1056 560 416 ) ( 1056 560 288 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 -1168 288 ) ( 1088 1168 288 ) ( 1088 1168 256 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+}
+// brush 34
+{
+( 640 560 160 ) ( 640 304 160 ) ( 640 304 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 560 160 ) ( 960 560 288 ) ( 960 304 288 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 304 160 ) ( 960 304 288 ) ( 960 304 256 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 960 560 256 ) ( 960 560 288 ) ( 640 560 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 560 128 ) ( 640 304 128 ) ( 960 304 256 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 960 304 288 ) ( 960 560 288 ) ( 960 560 256 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+}
+// brush 35
+{
+( -1088 560 160 ) ( -1088 304 160 ) ( -1088 304 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( -1088 304 160 ) ( 640 304 160 ) ( 640 304 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 304 128 ) ( 640 560 128 ) ( -1088 560 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( -1088 560 160 ) ( 640 560 160 ) ( 640 304 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 560 128 ) ( 640 560 160 ) ( -1088 560 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 304 160 ) ( 640 560 160 ) ( 640 560 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+}
+// brush 36
+{
+( 960 560 288 ) ( 640 560 128 ) ( 640 592 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 960 560 288 ) ( 1088 560 288 ) ( 1088 560 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 560 128 ) ( 1088 592 128 ) ( 640 592 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 960 592 288 ) ( 1088 592 288 ) ( 1088 560 288 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 592 128 ) ( 1088 592 288 ) ( 960 592 288 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 560 288 ) ( 1088 592 288 ) ( 1088 592 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 37
+{
+( 960 272 288 ) ( 640 272 128 ) ( 640 304 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 960 272 288 ) ( 1088 272 288 ) ( 1088 272 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 272 128 ) ( 1088 304 128 ) ( 640 304 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 960 304 288 ) ( 1088 304 288 ) ( 1088 272 288 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 304 128 ) ( 1088 304 288 ) ( 960 304 288 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 272 288 ) ( 1088 304 288 ) ( 1088 304 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 38
+{
+( -1088 560 160 ) ( -1088 592 128 ) ( -1088 592 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 560 160 ) ( -1088 560 128 ) ( -1088 560 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 592 128 ) ( -1088 560 128 ) ( 640 560 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 592 160 ) ( -1088 560 160 ) ( -1088 592 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 592 160 ) ( -1088 592 128 ) ( 640 592 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 592 160 ) ( 640 560 128 ) ( 640 560 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+}
+// brush 39
+{
+( -1088 272 160 ) ( -1088 304 128 ) ( -1088 304 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 272 160 ) ( -1088 272 128 ) ( -1088 272 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 304 128 ) ( -1088 272 128 ) ( 640 272 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 304 160 ) ( -1088 272 160 ) ( -1088 304 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 304 160 ) ( -1088 304 128 ) ( 640 304 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 640 304 160 ) ( 640 272 128 ) ( 640 272 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+}
+// brush 40
+{
+( -1088 1136 160 ) ( -1088 -1200 160 ) ( -1088 -1200 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( -1088 -1168 160 ) ( -1056 -1168 288 ) ( -1056 -1168 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 -1200 128 ) ( 1088 1136 128 ) ( -1088 1136 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( -1088 1136 160 ) ( 1088 1136 160 ) ( 1088 -1200 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 272 160 ) ( 544 272 288 ) ( 544 272 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 -1200 160 ) ( 1088 1136 160 ) ( 1088 1136 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+}
+// brush 41
+{
+( -1088 1200 160 ) ( -1088 -1136 160 ) ( -1088 -1136 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 592 160 ) ( 1056 592 160 ) ( 1056 592 288 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 -1136 128 ) ( 1088 1200 128 ) ( -1088 1200 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( -1088 1200 160 ) ( 1088 1200 160 ) ( 1088 -1136 160 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( -1088 1168 160 ) ( -1056 1168 160 ) ( -1056 1168 288 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+( 1088 -1136 160 ) ( 1088 1200 160 ) ( 1088 1200 128 ) PlaceHodlerTerrain/planksx32 0 0 0 1 1
+}
+}

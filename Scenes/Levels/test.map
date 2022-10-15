@@ -1,0 +1,16 @@
+// Game: PokkaGame
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/PlaceHodlerTerrain;textures/PrototypeTerrain"
+// brush 0
+{
+( -16 16 16 ) ( -16 -16 16 ) ( -16 -16 -16 ) __TB_empty -16 0 0 1 1
+( -16 -16 16 ) ( 16 -16 16 ) ( 16 -16 -16 ) __TB_empty -16 0 0 1 1
+( 16 -16 -16 ) ( 16 16 -16 ) ( -16 16 -16 ) __TB_empty -16 16 0 1 1
+( -16 16 16 ) ( 16 16 16 ) ( 16 -16 16 ) __TB_empty -16 16 0 1 1
+( 16 16 -16 ) ( 16 16 16 ) ( -16 16 16 ) __TB_empty -16 0 0 1 1
+( 16 -16 16 ) ( 16 16 16 ) ( 16 16 -16 ) __TB_empty -16 0 0 1 1
+}
+}

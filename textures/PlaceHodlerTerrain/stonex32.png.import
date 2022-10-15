@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/stonex32.png-81257af17a7d79a2e516f794e9b172b5.s3tc.stex"
-path.etc2="res://.import/stonex32.png-81257af17a7d79a2e516f794e9b172b5.etc2.stex"
+path.s3tc="res://.import/stonex32.png-f634ee774767f7638732ebdc164dceb4.s3tc.stex"
+path.etc2="res://.import/stonex32.png-f634ee774767f7638732ebdc164dceb4.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Resources/Textures/PlaceHodlerTerrain/stonex32.png"
-dest_files=[ "res://.import/stonex32.png-81257af17a7d79a2e516f794e9b172b5.s3tc.stex", "res://.import/stonex32.png-81257af17a7d79a2e516f794e9b172b5.etc2.stex" ]
+source_file="res://textures/PlaceHodlerTerrain/stonex32.png"
+dest_files=[ "res://.import/stonex32.png-f634ee774767f7638732ebdc164dceb4.s3tc.stex", "res://.import/stonex32.png-f634ee774767f7638732ebdc164dceb4.etc2.stex" ]
 
 [params]
 

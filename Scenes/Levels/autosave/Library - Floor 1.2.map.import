@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/Library - Floor 1.2.map-b876bb4c04a202cf38fdf56d3d093352.tres"
+
+[deps]
+
+source_file="res://Scenes/Levels/autosave/Library - Floor 1.2.map"
+dest_files=[ "res://.import/Library - Floor 1.2.map-b876bb4c04a202cf38fdf56d3d093352.tres" ]
+
+[params]
+

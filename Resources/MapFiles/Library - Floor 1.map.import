@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/Library - Floor 1.map-566ac1cf3eeb60b9ce3de8b24cdf85e9.tres"
+
+[deps]
+
+source_file="res://Resources/MapFiles/Library - Floor 1.map"
+dest_files=[ "res://.import/Library - Floor 1.map-566ac1cf3eeb60b9ce3de8b24cdf85e9.tres" ]
+
+[params]
+

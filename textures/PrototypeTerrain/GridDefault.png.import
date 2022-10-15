@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/bookshelfx64.png-6442163a16c353fab776ec2b5bff4c55.s3tc.stex"
-path.etc2="res://.import/bookshelfx64.png-6442163a16c353fab776ec2b5bff4c55.etc2.stex"
+path.s3tc="res://.import/GridDefault.png-fdb161a51af8ec78bde548535f3be09c.s3tc.stex"
+path.etc2="res://.import/GridDefault.png-fdb161a51af8ec78bde548535f3be09c.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Resources/Textures/PlaceHodlerTerrain/bookshelfx64.png"
-dest_files=[ "res://.import/bookshelfx64.png-6442163a16c353fab776ec2b5bff4c55.s3tc.stex", "res://.import/bookshelfx64.png-6442163a16c353fab776ec2b5bff4c55.etc2.stex" ]
+source_file="res://textures/PrototypeTerrain/GridDefault.png"
+dest_files=[ "res://.import/GridDefault.png-fdb161a51af8ec78bde548535f3be09c.s3tc.stex", "res://.import/GridDefault.png-fdb161a51af8ec78bde548535f3be09c.etc2.stex" ]
 
 [params]
 
@@ -22,7 +22,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
-flags/filter=true
+flags/filter=false
 flags/mipmaps=true
 flags/anisotropic=false
 flags/srgb=1
