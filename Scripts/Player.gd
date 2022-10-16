@@ -12,6 +12,9 @@ var movement_direction = Vector3()
 var h_velocity = Vector3()
 var movement_vector = Vector3()
 
+onready var animation_tree = $Head/Camera/AnimationTree.get("parameters/playback")
+onready var animation_player = $Head/Camera/AnimationPlayer
+
 #Control Variables
 var mouse_sens = 0.08
 
@@ -23,6 +26,14 @@ func _input(event: InputEvent) -> void:
 		rotate_y(deg2rad(-event.relative.x * mouse_sens))
 		$Head.rotate_x(deg2rad(-event.relative.y * mouse_sens))
 		$Head.rotation.x = clamp($Head.rotation.x, deg2rad(-40), deg2rad(40))
+
+func _process(delta: float) -> void:
+	if movement_direction != Vector3():
+		if $FootstepTimer.time_left <= 0:
+			$FootstepSound.pitch_scale = rand_range(0.8, 1.2)
+			$FootstepSound.play()
+			$FootstepTimer.start(0.6)
+
 
 func _physics_process(delta: float) -> void:
 	
@@ -57,3 +68,8 @@ func _physics_process(delta: float) -> void:
 	movement_vector.y = gravity_vector.y
 	
 	move_and_slide(movement_vector, Vector3.UP)
+	
+	if movement_direction != Vector3():
+		animation_tree.travel("HeadBob")
+	elif movement_direction == Vector3():
+		animation_tree.travel("default")

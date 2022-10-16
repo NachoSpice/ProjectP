@@ -1,6 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
+[ext_resource path="res://Resources/SFX/FootstepsSFX.wav" type="AudioStream" id=2]
+[ext_resource path="res://Resources/HUD/HUD mockup.png" type="Texture" id=3]
 
 [sub_resource type="CapsuleMesh" id=1]
 mid_height = 2.0
@@ -11,6 +13,126 @@ albedo_color = Color( 0.478431, 0.901961, 0.623529, 1 )
 
 [sub_resource type="CapsuleShape" id=3]
 height = 2.0
+
+[sub_resource type="Animation" id=4]
+resource_name = "HeadBob"
+length = 1.2
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.6, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, -0.3, 0 ), Vector3( 0.3, 0, 0 ), Vector3( 0, -0.3, 0 ), Vector3( -0.3, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 0,
+"values": [  ]
+}
+
+[sub_resource type="Animation" id=5]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "default"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "toHeadBob"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -0.3, 0 ) ]
+}
+
+[sub_resource type="AnimationNodeAnimation" id=8]
+animation = "HeadBob"
+
+[sub_resource type="AnimationNodeAnimation" id=9]
+animation = "default"
+
+[sub_resource type="AnimationNodeAnimation" id=10]
+animation = "toHeadBob"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=11]
+switch_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=12]
+switch_mode = 2
+auto_advance = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id=13]
+switch_mode = 1
+xfade_time = 0.1
+
+[sub_resource type="AnimationNodeStateMachine" id=14]
+states/HeadBob/node = SubResource( 8 )
+states/HeadBob/position = Vector2( 299, 240 )
+states/default/node = SubResource( 9 )
+states/default/position = Vector2( 219, 119 )
+states/toHeadBob/node = SubResource( 10 )
+states/toHeadBob/position = Vector2( 398, 119 )
+transitions = [ "default", "toHeadBob", SubResource( 11 ), "toHeadBob", "HeadBob", SubResource( 12 ), "HeadBob", "default", SubResource( 13 ) ]
+start_node = "default"
+
+[sub_resource type="AnimationNodeStateMachinePlayback" id=15]
 
 [node name="Player" type="KinematicBody"]
 script = ExtResource( 1 )
@@ -28,6 +150,39 @@ shape = SubResource( 3 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.00157, 0 )
 
 [node name="Camera" type="Camera" parent="Head"]
+fov = 90.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Head/Camera"]
+anims/HeadBob = SubResource( 4 )
+anims/RESET = SubResource( 5 )
+anims/default = SubResource( 6 )
+anims/toHeadBob = SubResource( 7 )
+blend_times = [ "default", "HeadBob", 0.5, "default", "default", 0.2 ]
+
+[node name="AnimationTree" type="AnimationTree" parent="Head/Camera"]
+tree_root = SubResource( 14 )
+anim_player = NodePath("../AnimationPlayer")
+active = true
+parameters/playback = SubResource( 15 )
+
+[node name="HUD" type="Control" parent="Head/Camera"]
+margin_right = 1920.0
+margin_bottom = 1080.0
+
+[node name="TextureRect" type="TextureRect" parent="Head/Camera/HUD"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 3 )
 
 [node name="GroundCHK" type="RayCast" parent="."]
 enabled = true
+
+[node name="FootstepSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -10.0
+
+[node name="FootstepTimer" type="Timer" parent="."]
+wait_time = 0.3
+one_shot = true
+
+[connection signal="timeout" from="FootstepTimer" to="." method="_on_FootstepTimer_timeout"]
