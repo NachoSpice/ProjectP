@@ -1,9 +1,9 @@
 extends KinematicBody
 
 #Movement Values
-const MOVEMENT_SPEED = 10
 const GRAVITY = 10
 
+export var movement_speed = 10
 var h_acceleration = 6
 var full_contact = false
 
@@ -51,7 +51,7 @@ func _physics_process(delta: float) -> void:
 	
 	movement_direction = movement_direction.normalized()
 	
-	h_velocity = h_velocity.linear_interpolate(movement_direction * MOVEMENT_SPEED, h_acceleration * delta)
+	h_velocity = h_velocity.linear_interpolate(movement_direction * movement_speed, h_acceleration * delta)
 	movement_vector.z = h_velocity.z + gravity_vector.z
 	movement_vector.x = h_velocity.x + gravity_vector.x
 	movement_vector.y = gravity_vector.y
