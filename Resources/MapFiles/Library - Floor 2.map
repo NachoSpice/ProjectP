@@ -1,0 +1,2222 @@
+// Game: PokkaGame
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/PlaceHodlerTerrain"
+// brush 0
+{
+( -1088 1184 128 ) ( -1088 1152 128 ) ( -1088 1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 1152 128 ) ( 1088 1152 128 ) ( 1088 1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 1152 0 ) ( 1088 1184 0 ) ( -1088 1184 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 1184 128 ) ( 1088 1184 128 ) ( 1088 1152 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 1184 0 ) ( 1088 1184 128 ) ( -1088 1184 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 1152 128 ) ( 1088 1184 128 ) ( 1088 1184 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 1
+{
+( -1088 -1152 128 ) ( -1088 -1184 128 ) ( -1088 -1184 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 -1184 128 ) ( 1088 -1184 128 ) ( 1088 -1184 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1184 0 ) ( 1088 -1152 0 ) ( -1088 -1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 -1152 128 ) ( 1088 -1152 128 ) ( 1088 -1184 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1152 0 ) ( 1088 -1152 128 ) ( -1088 -1152 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1184 128 ) ( 1088 -1152 128 ) ( 1088 -1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 2
+{
+( -1088 1152 128 ) ( -1088 -1152 128 ) ( -1088 -1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 -1152 128 ) ( -1056 -1152 128 ) ( -1056 -1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -1152 0 ) ( -1056 1152 0 ) ( -1088 1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1088 1152 128 ) ( -1056 1152 128 ) ( -1056 -1152 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 1152 0 ) ( -1056 1152 128 ) ( -1088 1152 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -1152 128 ) ( -1056 1152 128 ) ( -1056 1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 3
+{
+( 1056 1152 128 ) ( 1056 -1152 128 ) ( 1056 -1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 -1152 128 ) ( 1088 -1152 128 ) ( 1088 -1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1152 0 ) ( 1088 1152 0 ) ( 1056 1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1056 1152 128 ) ( 1088 1152 128 ) ( 1088 -1152 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 1152 0 ) ( 1088 1152 128 ) ( 1056 1152 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( 1088 -1152 128 ) ( 1088 1152 128 ) ( 1088 1152 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 4
+{
+( -1088 -576 0 ) ( -1088 -288 -128 ) ( -1088 -288 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -576 0 ) ( -1088 -576 -128 ) ( -1088 -576 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -288 -128 ) ( -1088 -576 -128 ) ( -1056 -576 -128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -288 0 ) ( -1088 -576 0 ) ( -1088 -288 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -288 0 ) ( -1088 -288 -128 ) ( -1056 -288 -128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -288 0 ) ( -1056 -576 -128 ) ( -1056 -576 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 5
+{
+( -1088 -288 -128 ) ( -1088 -576 -128 ) ( -1088 -576 -160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 -576 -128 ) ( -384 -576 -128 ) ( -384 -576 -160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -384 -576 -160 ) ( -384 -288 -160 ) ( -1088 -288 -160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 -288 -128 ) ( -384 -288 -128 ) ( -384 -576 -128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -384 -288 -160 ) ( -384 -288 -128 ) ( -1088 -288 -128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -384 -576 -128 ) ( -384 -288 -128 ) ( -384 -288 -160 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+}
+// brush 6
+{
+( -1056 -576 128 ) ( -1056 -608 128 ) ( -1056 -608 -160 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -608 128 ) ( -384 -608 128 ) ( -384 -608 -160 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -384 -608 -160 ) ( -384 -576 -160 ) ( -1056 -576 -160 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -576 128 ) ( -384 -576 128 ) ( -384 -608 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -384 -576 -160 ) ( -384 -576 128 ) ( -1056 -576 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -384 -608 128 ) ( -384 -576 128 ) ( -384 -576 -160 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 7
+{
+( -1056 -256 128 ) ( -1056 -288 128 ) ( -1056 -288 -160 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -288 128 ) ( -384 -288 128 ) ( -384 -288 -160 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -384 -288 -160 ) ( -384 -256 -160 ) ( -1056 -256 -160 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -1056 -256 128 ) ( -384 -256 128 ) ( -384 -288 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -384 -256 -160 ) ( -384 -256 128 ) ( -1056 -256 128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -384 -288 128 ) ( -384 -256 128 ) ( -384 -256 -160 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 8
+{
+( -1056 -768 128 ) ( -1056 -800 128 ) ( -1056 -800 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -1056 -800 128 ) ( -416 -800 128 ) ( -416 -800 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 -800 0 ) ( -416 -768 0 ) ( -1056 -768 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -1056 -768 128 ) ( -416 -768 128 ) ( -416 -800 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 -768 0 ) ( -416 -768 128 ) ( -1056 -768 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 -800 128 ) ( -416 -768 128 ) ( -416 -768 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 9
+{
+( -448 -992 128 ) ( -448 -800 0 ) ( -448 -800 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 -992 128 ) ( -448 -992 0 ) ( -448 -992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 -800 0 ) ( -448 -992 0 ) ( -416 -992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 -800 128 ) ( -448 -992 128 ) ( -448 -800 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 -800 128 ) ( -448 -800 0 ) ( -416 -800 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 -800 128 ) ( -416 -992 0 ) ( -416 -992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 10
+{
+( -896 -960 128 ) ( -896 -992 128 ) ( -896 -992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -896 -992 128 ) ( -448 -992 128 ) ( -448 -992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -448 -992 0 ) ( -448 -960 0 ) ( -896 -960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -896 -960 128 ) ( -448 -960 128 ) ( -448 -992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -448 -960 0 ) ( -448 -960 128 ) ( -896 -960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -448 -992 128 ) ( -448 -960 128 ) ( -448 -960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 11
+{
+( -640 352 128 ) ( -640 -96 128 ) ( -640 -96 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 -96 128 ) ( -608 -96 128 ) ( -608 -96 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -608 -96 0 ) ( -608 352 0 ) ( -640 352 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 352 128 ) ( -608 352 128 ) ( -608 -96 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -608 352 0 ) ( -608 352 128 ) ( -640 352 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -608 -96 128 ) ( -608 352 128 ) ( -608 352 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 12
+{
+( -896 -96 128 ) ( -896 -64 0 ) ( -896 -64 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 -96 128 ) ( -896 -96 0 ) ( -896 -96 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 -64 0 ) ( -896 -96 0 ) ( -640 -96 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 -64 128 ) ( -896 -96 128 ) ( -896 -64 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 -64 128 ) ( -896 -64 0 ) ( -640 -64 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 -64 128 ) ( -640 -96 0 ) ( -640 -96 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 13
+{
+( -896 -64 128 ) ( -896 192 0 ) ( -896 192 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 -64 128 ) ( -896 -64 0 ) ( -896 -64 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 192 0 ) ( -896 -64 0 ) ( -864 -64 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 192 128 ) ( -896 -64 128 ) ( -896 192 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 192 128 ) ( -896 192 0 ) ( -864 192 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 192 128 ) ( -864 -64 0 ) ( -864 -64 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 14
+{
+( -1056 320 128 ) ( -1056 352 0 ) ( -1056 352 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 320 128 ) ( -1056 320 0 ) ( -1056 320 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 352 0 ) ( -1056 320 0 ) ( -640 320 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 352 128 ) ( -1056 320 128 ) ( -1056 352 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 352 128 ) ( -1056 352 0 ) ( -640 352 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -640 352 128 ) ( -640 320 0 ) ( -640 320 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 15
+{
+( -1056 608 128 ) ( -1056 544 128 ) ( -1056 544 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -1056 544 128 ) ( -608 544 128 ) ( -608 544 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -608 544 0 ) ( -608 608 0 ) ( -1056 608 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -1056 608 128 ) ( -608 608 128 ) ( -608 544 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -608 608 0 ) ( -608 608 128 ) ( -1056 608 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -608 544 128 ) ( -608 608 128 ) ( -608 608 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 16
+{
+( -896 800 128 ) ( -896 768 128 ) ( -896 768 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -896 768 128 ) ( -608 768 128 ) ( -608 768 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -608 768 0 ) ( -608 800 0 ) ( -896 800 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -896 800 128 ) ( -608 800 128 ) ( -608 768 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -608 800 0 ) ( -608 800 128 ) ( -896 800 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -608 768 128 ) ( -608 800 128 ) ( -608 800 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 17
+{
+( -896 800 128 ) ( -896 992 0 ) ( -896 992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 800 128 ) ( -896 800 0 ) ( -896 800 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 992 0 ) ( -896 800 0 ) ( -864 800 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 992 128 ) ( -896 800 128 ) ( -896 992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 992 128 ) ( -896 992 0 ) ( -864 992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -864 992 128 ) ( -864 800 0 ) ( -864 800 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 18
+{
+( -864 960 128 ) ( -864 992 0 ) ( -864 992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 960 128 ) ( -864 960 0 ) ( -864 960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 992 0 ) ( -864 960 0 ) ( -416 960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 992 128 ) ( -864 960 128 ) ( -864 992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 992 128 ) ( -864 992 0 ) ( -416 992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 992 128 ) ( -416 960 0 ) ( -416 960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 19
+{
+( -448 256 128 ) ( -448 960 0 ) ( -448 960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 256 128 ) ( -448 256 0 ) ( -448 256 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 960 0 ) ( -448 256 0 ) ( -416 256 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 960 128 ) ( -448 256 128 ) ( -448 960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 960 128 ) ( -448 960 0 ) ( -416 960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -416 960 128 ) ( -416 256 0 ) ( -416 256 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 20
+{
+( -416 256 128 ) ( -416 288 0 ) ( -416 288 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 256 128 ) ( -416 256 0 ) ( -416 256 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 288 0 ) ( -416 256 0 ) ( -224 256 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 288 128 ) ( -416 256 128 ) ( -416 288 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 288 128 ) ( -416 288 0 ) ( -224 288 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 288 128 ) ( -224 256 0 ) ( -224 256 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 21
+{
+( -256 288 128 ) ( -256 992 0 ) ( -256 992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 288 128 ) ( -256 288 0 ) ( -256 288 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 992 0 ) ( -256 288 0 ) ( -224 288 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 992 128 ) ( -256 288 128 ) ( -256 992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 992 128 ) ( -256 992 0 ) ( -224 992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 992 128 ) ( -224 288 0 ) ( -224 288 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 22
+{
+( -224 992 128 ) ( -224 960 128 ) ( -224 960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 960 128 ) ( 384 960 128 ) ( 384 960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 960 0 ) ( 384 992 0 ) ( -224 992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -224 992 128 ) ( 384 992 128 ) ( 384 960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 992 0 ) ( 384 992 128 ) ( -224 992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 960 128 ) ( 384 992 128 ) ( 384 992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 23
+{
+( 352 768 128 ) ( 352 960 0 ) ( 352 960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 768 128 ) ( 352 768 0 ) ( 352 768 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 960 0 ) ( 352 768 0 ) ( 384 768 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 960 128 ) ( 352 768 128 ) ( 352 960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 960 128 ) ( 352 960 0 ) ( 384 960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 960 128 ) ( 384 768 0 ) ( 384 768 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 24
+{
+( -64 768 128 ) ( -64 800 0 ) ( -64 800 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 768 128 ) ( -64 768 0 ) ( -64 768 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 800 0 ) ( -64 768 0 ) ( 352 768 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 800 128 ) ( -64 768 128 ) ( -64 800 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 800 128 ) ( -64 800 0 ) ( 352 800 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 800 128 ) ( 352 768 0 ) ( 352 768 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 25
+{
+( -64 384 128 ) ( -64 768 0 ) ( -64 768 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -32 384 128 ) ( -64 384 0 ) ( -64 384 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -32 768 0 ) ( -64 384 0 ) ( -32 384 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -32 768 128 ) ( -64 384 128 ) ( -64 768 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -32 768 128 ) ( -64 768 0 ) ( -32 768 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -32 768 128 ) ( -32 384 0 ) ( -32 384 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 26
+{
+( -32 384 128 ) ( -32 416 0 ) ( -32 416 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 384 128 ) ( -32 384 0 ) ( -32 384 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 416 0 ) ( -32 384 0 ) ( 384 384 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 416 128 ) ( -32 384 128 ) ( -32 416 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 416 128 ) ( -32 416 0 ) ( 384 416 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 416 128 ) ( 384 384 0 ) ( 384 384 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 27
+{
+( 352 416 128 ) ( 352 608 0 ) ( 352 608 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 416 128 ) ( 352 416 0 ) ( 352 416 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 608 0 ) ( 352 416 0 ) ( 384 416 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 608 128 ) ( 352 416 128 ) ( 352 608 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 608 128 ) ( 352 608 0 ) ( 384 608 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 608 128 ) ( 384 416 0 ) ( 384 416 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 28
+{
+( 128 576 128 ) ( 128 608 0 ) ( 128 608 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 576 128 ) ( 128 576 0 ) ( 128 576 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 608 0 ) ( 128 576 0 ) ( 352 576 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 608 128 ) ( 128 576 128 ) ( 128 608 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 608 128 ) ( 128 608 0 ) ( 352 608 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 352 608 128 ) ( 352 576 0 ) ( 352 576 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 29
+{
+( -224 -1152 128 ) ( -224 -864 0 ) ( -224 -864 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -192 -1152 128 ) ( -224 -1152 0 ) ( -224 -1152 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -192 -864 0 ) ( -224 -1152 0 ) ( -192 -1152 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -192 -864 128 ) ( -224 -1152 128 ) ( -224 -864 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -192 -864 128 ) ( -224 -864 0 ) ( -192 -864 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( -192 -864 128 ) ( -192 -1152 0 ) ( -192 -1152 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 30
+{
+( -192 -896 128 ) ( -192 -864 0 ) ( -192 -864 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 192 -896 128 ) ( -192 -896 0 ) ( -192 -896 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 192 -864 0 ) ( -192 -896 0 ) ( 192 -896 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 192 -864 128 ) ( -192 -896 128 ) ( -192 -864 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 192 -864 128 ) ( -192 -864 0 ) ( 192 -864 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 192 -864 128 ) ( 192 -896 0 ) ( 192 -896 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 31
+{
+( 800 -896 128 ) ( 800 -1152 128 ) ( 800 -1152 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 800 -1152 128 ) ( 832 -1152 128 ) ( 832 -1152 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -1152 0 ) ( 832 -896 0 ) ( 800 -896 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 800 -896 128 ) ( 832 -896 128 ) ( 832 -1152 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -896 0 ) ( 832 -896 128 ) ( 800 -896 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -1152 128 ) ( 832 -896 128 ) ( 832 -896 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 32
+{
+( 416 -864 128 ) ( 416 -896 128 ) ( 416 -896 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 416 -896 128 ) ( 832 -896 128 ) ( 832 -896 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -896 0 ) ( 832 -864 0 ) ( 416 -864 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 416 -864 128 ) ( 832 -864 128 ) ( 832 -896 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -864 0 ) ( 832 -864 128 ) ( 416 -864 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -896 128 ) ( 832 -864 128 ) ( 832 -864 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 33
+{
+( 384 -672 128 ) ( 384 -704 128 ) ( 384 -704 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 -704 128 ) ( 832 -704 128 ) ( 832 -704 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -704 0 ) ( 832 -672 0 ) ( 384 -672 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 384 -672 128 ) ( 832 -672 128 ) ( 832 -704 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -672 0 ) ( 832 -672 128 ) ( 384 -672 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -704 128 ) ( 832 -672 128 ) ( 832 -672 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 34
+{
+( 384 -672 128 ) ( 384 224 0 ) ( 384 224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 416 -672 128 ) ( 384 -672 0 ) ( 384 -672 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 416 224 0 ) ( 384 -672 0 ) ( 416 -672 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 416 224 128 ) ( 384 -672 128 ) ( 384 224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 416 224 128 ) ( 384 224 0 ) ( 416 224 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 416 224 128 ) ( 416 -672 0 ) ( 416 -672 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 35
+{
+( 416 192 128 ) ( 416 224 0 ) ( 416 224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 1056 192 128 ) ( 416 192 0 ) ( 416 192 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 1056 224 0 ) ( 416 192 0 ) ( 1056 192 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 1056 224 128 ) ( 416 192 128 ) ( 416 224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 1056 224 128 ) ( 416 224 0 ) ( 1056 224 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 1056 224 128 ) ( 1056 192 0 ) ( 1056 192 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 36
+{
+( 800 -672 128 ) ( 800 -224 0 ) ( 800 -224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -672 128 ) ( 800 -672 0 ) ( 800 -672 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -224 0 ) ( 800 -672 0 ) ( 832 -672 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -224 128 ) ( 800 -672 128 ) ( 800 -224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -224 128 ) ( 800 -224 0 ) ( 832 -224 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 832 -224 128 ) ( 832 -672 0 ) ( 832 -672 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 37
+{
+( 576 -256 128 ) ( 576 -224 0 ) ( 576 -224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 800 -256 128 ) ( 576 -256 0 ) ( 576 -256 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 800 -224 0 ) ( 576 -256 0 ) ( 800 -256 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 800 -224 128 ) ( 576 -256 128 ) ( 576 -224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 800 -224 128 ) ( 576 -224 0 ) ( 800 -224 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 800 -224 128 ) ( 800 -256 0 ) ( 800 -256 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 38
+{
+( 576 -224 128 ) ( 576 32 0 ) ( 576 32 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 608 -224 128 ) ( 576 -224 0 ) ( 576 -224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 608 32 0 ) ( 576 -224 0 ) ( 608 -224 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 608 32 128 ) ( 576 -224 128 ) ( 576 32 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 608 32 128 ) ( 576 32 0 ) ( 608 32 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 608 32 128 ) ( 608 -224 0 ) ( 608 -224 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 39
+{
+( 544 960 128 ) ( 544 384 128 ) ( 544 384 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 544 384 128 ) ( 576 384 128 ) ( 576 384 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 576 384 0 ) ( 576 960 0 ) ( 544 960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 544 960 128 ) ( 576 960 128 ) ( 576 384 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 576 960 0 ) ( 576 960 128 ) ( 544 960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 576 384 128 ) ( 576 960 128 ) ( 576 960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 40
+{
+( 576 416 128 ) ( 576 384 128 ) ( 576 384 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 576 384 128 ) ( 864 384 128 ) ( 864 384 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 864 384 0 ) ( 864 416 0 ) ( 576 416 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 576 416 128 ) ( 864 416 128 ) ( 864 384 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 864 416 0 ) ( 864 416 128 ) ( 576 416 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 864 384 128 ) ( 864 416 128 ) ( 864 416 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 41
+{
+( -384 -576 0 ) ( -384 -544 0 ) ( -384 -544 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -384 -576 0 ) ( -320 -576 128 ) ( -320 -576 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 -32 ) ( 1088 1184 -32 ) ( -1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1184 0 ) ( 1088 1184 0 ) ( 1088 -1184 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -416 -288 0 ) ( -320 -288 0 ) ( -320 -288 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 0 ) ( 1088 1184 0 ) ( 1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+}
+// brush 42
+{
+( -1088 1184 0 ) ( -1088 -1184 0 ) ( -1088 -1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 -1184 0 ) ( 1088 -1184 0 ) ( 1088 -1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 -32 ) ( 1088 1184 -32 ) ( -1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1184 0 ) ( 1088 1184 0 ) ( 1088 -1184 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -416 -608 0 ) ( -480 -608 128 ) ( -480 -608 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 0 ) ( 1088 1184 0 ) ( 1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+}
+// brush 43
+{
+( -416 -608 0 ) ( -416 -576 0 ) ( -416 -576 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -416 -608 0 ) ( -480 -608 0 ) ( -480 -608 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 -32 ) ( 1088 1184 -32 ) ( -1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1184 0 ) ( 1088 1184 0 ) ( 1088 -1184 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -384 -576 0 ) ( -320 -576 0 ) ( -320 -576 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 0 ) ( 1088 1184 0 ) ( 1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+}
+// brush 44
+{
+( -1088 1184 0 ) ( -1088 -1184 0 ) ( -1088 -1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -448 -256 0 ) ( -416 -256 128 ) ( -416 -256 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 -32 ) ( 1088 1184 -32 ) ( -1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1184 0 ) ( 1088 1184 0 ) ( 1088 -1184 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 1184 -32 ) ( 1088 1184 0 ) ( -1088 1184 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 0 ) ( 1088 1184 0 ) ( 1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+}
+// brush 45
+{
+( -416 -288 0 ) ( -416 -256 0 ) ( -416 -256 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -416 -288 0 ) ( -320 -288 128 ) ( -320 -288 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 -32 ) ( 1088 1184 -32 ) ( -1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1088 1184 0 ) ( 1088 1184 0 ) ( 1088 -1184 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -448 -256 0 ) ( -416 -256 0 ) ( -416 -256 128 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1088 -1184 0 ) ( 1088 1184 0 ) ( 1088 1184 -32 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+}
+// brush 46
+{
+( -416 -288 0 ) ( -416 -576 0 ) ( -416 -576 -128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -416 -576 0 ) ( -384 -576 0 ) ( -384 -576 -128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -384 -576 -128 ) ( -384 -288 -128 ) ( -416 -288 -128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -416 -288 0 ) ( -384 -288 0 ) ( -384 -576 0 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -384 -288 -128 ) ( -384 -288 0 ) ( -416 -288 0 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+( -384 -576 0 ) ( -384 -288 0 ) ( -384 -288 -128 ) PlaceHodlerTerrain/wood_wall 0 0 0 1 1
+}
+// brush 47
+{
+( -1056 -288 192 ) ( -992 -352 192 ) ( -1056 -288 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 -352 192 ) ( -992 -288 128 ) ( -1056 -288 128 ) PlaceHodlerTerrain/komienbp 21.333374 0 0 1 1
+( -1056 -288 192 ) ( -992 -288 192 ) ( -992 -352 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 -288 128 ) ( -992 -288 192 ) ( -1056 -288 192 ) PlaceHodlerTerrain/komienbp 29.86676 0 0 1 1
+( -992 -352 192 ) ( -992 -288 192 ) ( -992 -288 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 48
+{
+( -1056 -288 192 ) ( -1056 -352 192 ) ( -1056 -352 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -352 192 ) ( -992 -352 192 ) ( -1056 -352 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -288 192 ) ( -992 -352 192 ) ( -1056 -352 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -352 128 ) ( -992 -352 192 ) ( -1056 -288 128 ) PlaceHodlerTerrain/komienbp 23.466675 -21.333344 0 1 1
+( -1056 -288 128 ) ( -992 -352 192 ) ( -1056 -288 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 49
+{
+( -1056 -576 128 ) ( -992 -512 192 ) ( -1056 -576 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -576 192 ) ( -992 -576 192 ) ( -992 -576 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -576 192 ) ( -992 -512 192 ) ( -992 -576 192 ) PlaceHodlerTerrain/komienbp -31.999939 0 90 1 1
+( -992 -576 128 ) ( -992 -512 192 ) ( -1056 -576 128 ) PlaceHodlerTerrain/komienbp -8.533264 10.666626 90 1 1
+( -992 -576 192 ) ( -992 -512 192 ) ( -992 -576 128 ) PlaceHodlerTerrain/komienbp -31.999939 0 0 1 1
+}
+// brush 50
+{
+( -1056 -512 128 ) ( -1056 -512 192 ) ( -1056 -576 192 ) PlaceHodlerTerrain/komienbp -2.1332397 0 0 1 1
+( -1056 -576 192 ) ( -1056 -512 192 ) ( -992 -512 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -992 -512 192 ) ( -1056 -512 192 ) ( -1056 -512 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -576 192 ) ( -992 -512 192 ) ( -1056 -576 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -512 192 ) ( -1056 -512 128 ) ( -1056 -576 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 90 1 1
+}
+// brush 51
+{
+( -1056 -768 128 ) ( -992 -704 192 ) ( -1056 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -768 192 ) ( -992 -768 192 ) ( -992 -768 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -768 192 ) ( -992 -704 192 ) ( -992 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -992 -768 128 ) ( -992 -704 192 ) ( -1056 -768 128 ) PlaceHodlerTerrain/komienbp 23.466736 -21.333435 90 1 1
+( -992 -768 192 ) ( -992 -704 192 ) ( -992 -768 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 52
+{
+( -1056 -704 128 ) ( -1056 -704 192 ) ( -1056 -768 192 ) PlaceHodlerTerrain/komienbp 29.86676 0 0 1 1
+( -1056 -768 192 ) ( -1056 -704 192 ) ( -992 -704 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -992 -704 192 ) ( -1056 -704 192 ) ( -1056 -704 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -768 192 ) ( -992 -704 192 ) ( -1056 -768 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -704 192 ) ( -1056 -704 128 ) ( -1056 -768 128 ) PlaceHodlerTerrain/komienbp 21.333374 0 90 1 1
+}
+// brush 53
+{
+( -1056 -608 192 ) ( -1056 -672 192 ) ( -1056 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -672 192 ) ( -992 -672 192 ) ( -1056 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -608 192 ) ( -992 -672 192 ) ( -1056 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -672 128 ) ( -992 -672 192 ) ( -1056 -608 128 ) PlaceHodlerTerrain/komienbp -8.533325 -21.333374 0 1 1
+( -1056 -608 128 ) ( -992 -672 192 ) ( -1056 -608 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+}
+// brush 54
+{
+( -1056 -608 192 ) ( -992 -672 192 ) ( -1056 -608 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+( -992 -672 192 ) ( -992 -608 128 ) ( -1056 -608 128 ) PlaceHodlerTerrain/komienbp -10.666626 -31.999939 0 1 1
+( -1056 -608 192 ) ( -992 -608 192 ) ( -992 -672 192 ) PlaceHodlerTerrain/komienbp 0 -31.999939 0 1 1
+( -992 -608 128 ) ( -992 -608 192 ) ( -1056 -608 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 0 1 1
+( -992 -672 192 ) ( -992 -608 192 ) ( -992 -608 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+}
+// brush 55
+{
+( -1056 -800 192 ) ( -1056 -864 192 ) ( -1056 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -864 192 ) ( -992 -864 192 ) ( -1056 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -800 192 ) ( -992 -864 192 ) ( -1056 -864 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -864 128 ) ( -992 -864 192 ) ( -1056 -800 128 ) PlaceHodlerTerrain/komienbp -8.533325 -21.333374 0 1 1
+( -1056 -800 128 ) ( -992 -864 192 ) ( -1056 -800 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+}
+// brush 56
+{
+( -1056 -800 192 ) ( -992 -864 192 ) ( -1056 -800 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+( -992 -864 192 ) ( -992 -800 128 ) ( -1056 -800 128 ) PlaceHodlerTerrain/komienbp -10.666626 -31.999939 0 1 1
+( -1056 -800 192 ) ( -992 -800 192 ) ( -992 -864 192 ) PlaceHodlerTerrain/komienbp 0 -31.999939 0 1 1
+( -992 -800 128 ) ( -992 -800 192 ) ( -1056 -800 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 0 1 1
+( -992 -864 192 ) ( -992 -800 192 ) ( -992 -800 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+}
+// brush 57
+{
+( -992 -800 128 ) ( -992 -800 192 ) ( -992 -864 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -512 -864 192 ) ( -512 -800 128 ) ( -992 -800 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 -800 192 ) ( -512 -800 192 ) ( -512 -864 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -512 -800 128 ) ( -512 -800 192 ) ( -992 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -512 -864 192 ) ( -512 -800 192 ) ( -512 -800 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 58
+{
+( -512 -800 192 ) ( -512 -864 192 ) ( -512 -800 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -512 -800 128 ) ( -512 -864 192 ) ( -448 -800 128 ) PlaceHodlerTerrain/komienbp -8.533203 10.6666565 270 1 1
+( -448 -800 192 ) ( -512 -864 192 ) ( -512 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -448 -800 192 ) ( -512 -800 192 ) ( -512 -800 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -448 -800 128 ) ( -512 -864 192 ) ( -448 -800 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+}
+// brush 59
+{
+( -512 -864 192 ) ( -448 -864 128 ) ( -448 -800 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 270 1 1
+( -448 -800 192 ) ( -512 -864 192 ) ( -448 -800 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+( -512 -864 192 ) ( -448 -864 192 ) ( -448 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -448 -800 192 ) ( -448 -864 192 ) ( -512 -864 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -448 -864 128 ) ( -448 -864 192 ) ( -448 -800 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+}
+// brush 60
+{
+( -448 -960 128 ) ( -512 -896 192 ) ( -448 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -448 -896 128 ) ( -512 -896 192 ) ( -448 -960 128 ) PlaceHodlerTerrain/komienbp 23.466766 10.666626 180 1 1
+( -448 -960 192 ) ( -512 -896 192 ) ( -448 -896 192 ) PlaceHodlerTerrain/komienbp 31.99997 0 180 1 1
+( -448 -896 192 ) ( -512 -896 192 ) ( -448 -896 128 ) PlaceHodlerTerrain/komienbp 31.99997 0 180 1 -1
+( -448 -960 192 ) ( -448 -896 192 ) ( -448 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 61
+{
+( -512 -896 192 ) ( -512 -960 192 ) ( -512 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -512 -960 128 ) ( -512 -960 192 ) ( -448 -960 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+( -448 -960 192 ) ( -512 -960 192 ) ( -512 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -512 -896 192 ) ( -512 -960 128 ) ( -448 -960 128 ) PlaceHodlerTerrain/komienbp 21.333405 0 180 1 1
+( -448 -960 192 ) ( -512 -896 192 ) ( -448 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 62
+{
+( -1056 -1152 128 ) ( -992 -1088 192 ) ( -1056 -1152 192 ) PlaceHodlerTerrain/komienbp -31.999878 0 180 1 -1
+( -1056 -1152 192 ) ( -992 -1152 192 ) ( -992 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -1152 192 ) ( -992 -1088 192 ) ( -992 -1152 192 ) PlaceHodlerTerrain/komienbp 31.999878 0 90 1 1
+( -992 -1152 128 ) ( -992 -1088 192 ) ( -1056 -1152 128 ) PlaceHodlerTerrain/komienbp 23.466675 -21.333435 90 1 1
+( -992 -1152 192 ) ( -992 -1088 192 ) ( -992 -1152 128 ) PlaceHodlerTerrain/komienbp 31.999878 0 0 1 1
+}
+// brush 63
+{
+( -1056 -1088 128 ) ( -1056 -1088 192 ) ( -1056 -1152 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 0 1 1
+( -1056 -1152 192 ) ( -1056 -1088 192 ) ( -992 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -992 -1088 192 ) ( -1056 -1088 192 ) ( -1056 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -1152 192 ) ( -992 -1088 192 ) ( -1056 -1152 128 ) PlaceHodlerTerrain/komienbp -31.999878 0 180 1 -1
+( -992 -1088 192 ) ( -1056 -1088 128 ) ( -1056 -1152 128 ) PlaceHodlerTerrain/komienbp 21.333374 0 90 1 1
+}
+// brush 64
+{
+( -1056 -864 192 ) ( -1056 -1088 192 ) ( -1056 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -1088 192 ) ( -992 -1088 192 ) ( -1056 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -864 192 ) ( -992 -864 192 ) ( -992 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -1056 -864 128 ) ( -992 -864 192 ) ( -1056 -864 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -1088 192 ) ( -992 -864 192 ) ( -1056 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 65
+{
+( -512 -896 192 ) ( -448 -896 128 ) ( -448 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -512 -896 192 ) ( -448 -896 192 ) ( -448 -896 128 ) PlaceHodlerTerrain/komienbp -31.99997 0 0 1 1
+( -448 -864 192 ) ( -448 -896 192 ) ( -512 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -448 -864 128 ) ( -448 -864 192 ) ( -512 -864 192 ) PlaceHodlerTerrain/komienbp -31.99997 0 0 1 1
+( -448 -896 128 ) ( -448 -896 192 ) ( -448 -864 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 66
+{
+( -896 -960 128 ) ( -960 -896 192 ) ( -960 -1056 192 ) PlaceHodlerTerrain/komienbp -16 -16 0 1 1
+( -864 -1056 192 ) ( -864 -992 128 ) ( -896 -992 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 -992 128 ) ( -864 -960 128 ) ( -896 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -960 -896 192 ) ( -864 -896 192 ) ( -864 -1056 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 -960 128 ) ( -864 -896 192 ) ( -960 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 -1056 192 ) ( -864 -896 192 ) ( -864 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 67
+{
+( -864 -960 192 ) ( -864 -960 128 ) ( -864 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 -960 192 ) ( -512 -960 192 ) ( -512 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 -896 192 ) ( -512 -896 192 ) ( -512 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -512 -960 128 ) ( -512 -896 192 ) ( -864 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -512 -960 192 ) ( -512 -896 192 ) ( -512 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 68
+{
+( -448 -1056 192 ) ( -448 -992 128 ) ( -448 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -448 -1056 192 ) ( -352 -1056 192 ) ( -416 -992 128 ) PlaceHodlerTerrain/komienbp -16 -16 90 1 1
+( -416 -992 128 ) ( -416 -960 128 ) ( -448 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -448 -960 192 ) ( -352 -960 192 ) ( -352 -1056 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -416 -960 128 ) ( -352 -960 192 ) ( -448 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 -960 128 ) ( -416 -992 128 ) ( -352 -1056 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 69
+{
+( -864 -992 128 ) ( -864 -992 192 ) ( -864 -1056 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -448 -1056 192 ) ( -448 -992 128 ) ( -864 -992 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 -992 192 ) ( -448 -992 192 ) ( -448 -1056 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -448 -992 128 ) ( -448 -992 192 ) ( -864 -992 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -448 -1056 192 ) ( -448 -992 192 ) ( -448 -992 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 70
+{
+( -992 -768 192 ) ( -992 -768 128 ) ( -992 -704 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -768 192 ) ( -448 -768 192 ) ( -448 -768 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -704 192 ) ( -448 -704 192 ) ( -448 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -448 -768 128 ) ( -448 -704 192 ) ( -992 -704 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -448 -768 192 ) ( -448 -704 192 ) ( -448 -768 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 71
+{
+( -992 -1152 192 ) ( -992 -1152 128 ) ( -992 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -1152 192 ) ( -288 -1152 192 ) ( -288 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -1088 192 ) ( -288 -1088 192 ) ( -288 -1152 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -288 -1152 128 ) ( -288 -1088 192 ) ( -992 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -288 -1152 192 ) ( -288 -1088 192 ) ( -288 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 72
+{
+( -448 -768 128 ) ( -448 -704 192 ) ( -448 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -352 -800 192 ) ( -416 -800 128 ) ( -448 -800 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+( -416 -768 128 ) ( -448 -768 128 ) ( -448 -800 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -448 -800 192 ) ( -448 -704 192 ) ( -352 -704 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -448 -768 128 ) ( -416 -768 128 ) ( -352 -704 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -352 -800 192 ) ( -352 -704 192 ) ( -416 -768 128 ) PlaceHodlerTerrain/komienbp 16 -16 180 1 1
+}
+// brush 73
+{
+( -416 -800 192 ) ( -416 -960 192 ) ( -416 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 -960 192 ) ( -352 -960 192 ) ( -416 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 -800 192 ) ( -352 -800 192 ) ( -352 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -416 -800 128 ) ( -352 -800 192 ) ( -416 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 -800 128 ) ( -416 -960 128 ) ( -352 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 74
+{
+( -224 -1152 128 ) ( -288 -1088 192 ) ( -224 -1152 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -224 -1088 128 ) ( -288 -1088 192 ) ( -224 -1152 128 ) PlaceHodlerTerrain/komienbp -8.533325 10.666687 180 1 1
+( -224 -1152 192 ) ( -288 -1088 192 ) ( -224 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -224 -1088 192 ) ( -288 -1088 192 ) ( -224 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -224 -1152 192 ) ( -224 -1088 192 ) ( -224 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 75
+{
+( -288 -1088 192 ) ( -288 -1152 192 ) ( -288 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -288 -1152 128 ) ( -288 -1152 192 ) ( -224 -1152 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+( -224 -1152 192 ) ( -288 -1152 192 ) ( -288 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -288 -1088 192 ) ( -288 -1152 128 ) ( -224 -1152 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 180 1 1
+( -224 -1152 192 ) ( -288 -1088 192 ) ( -224 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 76
+{
+( -992 -608 128 ) ( -992 -608 192 ) ( -992 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 -672 192 ) ( -416 -608 128 ) ( -992 -608 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 -608 192 ) ( -416 -608 192 ) ( -416 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 -608 128 ) ( -416 -608 192 ) ( -992 -608 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 -672 192 ) ( -416 -608 192 ) ( -416 -608 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 77
+{
+( -416 -512 192 ) ( -416 -672 192 ) ( -416 -608 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 -608 128 ) ( -416 -672 192 ) ( -320 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -416 -576 128 ) ( -416 -608 128 ) ( -384 -608 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -320 -672 192 ) ( -416 -672 192 ) ( -416 -512 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -416 -512 192 ) ( -416 -576 128 ) ( -384 -576 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -384 -608 128 ) ( -320 -672 192 ) ( -320 -512 192 ) PlaceHodlerTerrain/komienbp 16 -16 180 1 1
+}
+// brush 78
+{
+( -416 -192 192 ) ( -416 -352 192 ) ( -416 -288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 -288 128 ) ( -416 -352 192 ) ( -320 -352 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -416 -256 128 ) ( -416 -288 128 ) ( -384 -288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -320 -352 192 ) ( -416 -352 192 ) ( -416 -192 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -416 -192 192 ) ( -416 -256 128 ) ( -384 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -384 -288 128 ) ( -320 -352 192 ) ( -320 -192 192 ) PlaceHodlerTerrain/komienbp -16 -16 180 1 1
+}
+// brush 79
+{
+( -992 -512 192 ) ( -992 -576 192 ) ( -992 -576 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -576 128 ) ( -992 -576 192 ) ( -416 -576 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 -576 192 ) ( -992 -576 192 ) ( -992 -512 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -992 -512 192 ) ( -992 -576 128 ) ( -416 -576 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -416 -576 128 ) ( -416 -576 192 ) ( -416 -512 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 80
+{
+( -992 -288 128 ) ( -992 -288 192 ) ( -992 -352 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 -352 192 ) ( -416 -288 128 ) ( -992 -288 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 -288 192 ) ( -416 -288 192 ) ( -416 -352 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 -288 128 ) ( -416 -288 192 ) ( -992 -288 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 -352 192 ) ( -416 -288 192 ) ( -416 -288 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 81
+{
+( -992 -192 192 ) ( -992 -256 192 ) ( -992 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -256 128 ) ( -992 -256 192 ) ( -416 -256 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 -256 192 ) ( -992 -256 192 ) ( -992 -192 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -992 -192 192 ) ( -992 -256 128 ) ( -416 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -416 -256 128 ) ( -416 -256 192 ) ( -416 -192 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 82
+{
+( -1056 -256 128 ) ( -992 -192 192 ) ( -1056 -256 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -256 192 ) ( -992 -256 192 ) ( -992 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -256 192 ) ( -992 -192 192 ) ( -992 -256 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -992 -256 128 ) ( -992 -192 192 ) ( -1056 -256 128 ) PlaceHodlerTerrain/komienbp 23.46672 10.666626 90 1 1
+( -992 -256 192 ) ( -992 -192 192 ) ( -992 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 83
+{
+( -1056 -192 128 ) ( -1056 -192 192 ) ( -1056 -256 192 ) PlaceHodlerTerrain/komienbp 29.86676 0 0 1 1
+( -1056 -256 192 ) ( -1056 -192 192 ) ( -992 -192 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -992 -192 192 ) ( -1056 -192 192 ) ( -1056 -192 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -256 192 ) ( -992 -192 192 ) ( -1056 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -192 192 ) ( -1056 -192 128 ) ( -1056 -256 128 ) PlaceHodlerTerrain/komienbp 21.33339 0 90 1 1
+}
+// brush 84
+{
+( -1056 -352 192 ) ( -1056 -512 192 ) ( -1056 -512 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -512 192 ) ( -992 -512 192 ) ( -1056 -512 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -352 192 ) ( -992 -352 192 ) ( -992 -512 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -1056 -352 128 ) ( -992 -352 192 ) ( -1056 -352 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -512 192 ) ( -992 -352 192 ) ( -1056 -352 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 85
+{
+( -1056 256 192 ) ( -1056 -192 192 ) ( -1056 -192 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -192 192 ) ( -992 -192 192 ) ( -1056 -192 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 256 192 ) ( -992 256 192 ) ( -992 -192 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -1056 256 128 ) ( -992 256 192 ) ( -1056 256 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -192 192 ) ( -992 256 192 ) ( -1056 256 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 86
+{
+( -1056 320 192 ) ( -1056 256 192 ) ( -1056 256 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 256 192 ) ( -992 256 192 ) ( -1056 256 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 320 192 ) ( -992 256 192 ) ( -1056 256 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 256 128 ) ( -992 256 192 ) ( -1056 320 128 ) PlaceHodlerTerrain/komienbp 23.466675 -21.333344 0 1 1
+( -1056 320 128 ) ( -992 256 192 ) ( -1056 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 87
+{
+( -1056 320 192 ) ( -992 256 192 ) ( -1056 320 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 256 192 ) ( -992 320 128 ) ( -1056 320 128 ) PlaceHodlerTerrain/komienbp 21.333374 0 0 1 1
+( -1056 320 192 ) ( -992 320 192 ) ( -992 256 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 320 128 ) ( -992 320 192 ) ( -1056 320 192 ) PlaceHodlerTerrain/komienbp 29.86676 0 0 1 1
+( -992 256 192 ) ( -992 320 192 ) ( -992 320 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 88
+{
+( -992 320 128 ) ( -992 320 192 ) ( -992 256 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -704 256 192 ) ( -704 320 128 ) ( -992 320 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 320 192 ) ( -704 320 192 ) ( -704 256 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -704 320 128 ) ( -704 320 192 ) ( -992 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -704 256 192 ) ( -704 320 192 ) ( -704 320 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 89
+{
+( -704 320 192 ) ( -704 256 192 ) ( -704 320 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -704 320 128 ) ( -704 256 192 ) ( -640 320 128 ) PlaceHodlerTerrain/komienbp -8.533234 -21.333374 270 1 1
+( -640 320 192 ) ( -704 256 192 ) ( -704 320 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -640 320 192 ) ( -704 320 192 ) ( -704 320 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 320 128 ) ( -704 256 192 ) ( -640 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 90
+{
+( -704 256 192 ) ( -640 256 128 ) ( -640 320 128 ) PlaceHodlerTerrain/komienbp -10.666595 -31.999939 270 1 1
+( -640 320 192 ) ( -704 256 192 ) ( -640 320 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -704 256 192 ) ( -640 256 192 ) ( -640 256 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+( -640 320 192 ) ( -640 256 192 ) ( -704 256 192 ) PlaceHodlerTerrain/komienbp 0 -31.999939 270 1 1
+( -640 256 128 ) ( -640 256 192 ) ( -640 320 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+}
+// brush 91
+{
+( -640 0 128 ) ( -640 256 128 ) ( -704 256 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -704 0 192 ) ( -640 0 192 ) ( -640 0 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -704 256 192 ) ( -640 256 192 ) ( -640 0 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -640 256 128 ) ( -640 256 192 ) ( -704 256 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 0 192 ) ( -640 256 192 ) ( -640 256 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 92
+{
+( -640 -64 128 ) ( -704 0 192 ) ( -640 -64 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -640 0 128 ) ( -704 0 192 ) ( -640 -64 128 ) PlaceHodlerTerrain/komienbp -8.533203 10.666646 180 1 1
+( -640 -64 192 ) ( -704 0 192 ) ( -640 0 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 0 192 ) ( -704 0 192 ) ( -640 0 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -640 -64 192 ) ( -640 0 192 ) ( -640 0 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 93
+{
+( -704 0 192 ) ( -704 -64 192 ) ( -704 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -704 -64 128 ) ( -704 -64 192 ) ( -640 -64 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+( -640 -64 192 ) ( -704 -64 192 ) ( -704 0 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -704 0 192 ) ( -704 -64 128 ) ( -640 -64 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 180 1 1
+( -640 -64 192 ) ( -704 0 192 ) ( -640 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 94
+{
+( -960 160 192 ) ( -896 160 128 ) ( -896 192 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -960 160 192 ) ( -800 160 192 ) ( -864 160 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -896 160 128 ) ( -864 160 128 ) ( -864 192 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -800 256 192 ) ( -800 160 192 ) ( -960 160 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -864 192 128 ) ( -800 256 192 ) ( -960 256 192 ) PlaceHodlerTerrain/komienbp 16 -16 270 1 1
+( -864 160 128 ) ( -800 160 192 ) ( -800 256 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+}
+// brush 95
+{
+( -864 160 192 ) ( -864 0 192 ) ( -864 0 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 0 192 ) ( -800 0 192 ) ( -864 0 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 160 192 ) ( -800 160 192 ) ( -800 0 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -864 160 128 ) ( -800 160 192 ) ( -864 160 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 160 128 ) ( -864 0 128 ) ( -800 0 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 96
+{
+( -864 -64 128 ) ( -800 0 192 ) ( -864 -64 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 -64 192 ) ( -800 -64 192 ) ( -800 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 -64 192 ) ( -800 0 192 ) ( -800 -64 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -800 -64 128 ) ( -800 0 192 ) ( -864 -64 128 ) PlaceHodlerTerrain/komienbp -8.533283 -21.333374 90 1 1
+( -800 -64 192 ) ( -800 0 192 ) ( -800 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 97
+{
+( -864 0 128 ) ( -864 0 192 ) ( -864 -64 192 ) PlaceHodlerTerrain/komienbp -2.1332397 0 0 1 1
+( -864 -64 192 ) ( -864 0 192 ) ( -800 0 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -800 0 192 ) ( -864 0 192 ) ( -864 0 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 -64 192 ) ( -800 0 192 ) ( -864 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -800 0 192 ) ( -864 0 128 ) ( -864 -64 128 ) PlaceHodlerTerrain/komienbp -10.666601 0 90 1 1
+}
+// brush 98
+{
+( -800 -64 128 ) ( -800 0 192 ) ( -800 -64 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -800 -64 192 ) ( -704 -64 192 ) ( -704 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -800 -64 192 ) ( -800 0 192 ) ( -704 0 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -704 0 192 ) ( -800 0 192 ) ( -800 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -704 -64 192 ) ( -704 0 192 ) ( -704 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 99
+{
+( -896 -64 128 ) ( -896 160 128 ) ( -960 160 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -960 -64 192 ) ( -896 -64 192 ) ( -896 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -960 160 192 ) ( -896 160 192 ) ( -896 -64 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -896 160 128 ) ( -896 160 192 ) ( -960 160 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -896 -64 192 ) ( -896 160 192 ) ( -896 160 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 100
+{
+( -960 -64 192 ) ( -960 -160 192 ) ( -896 -96 128 ) PlaceHodlerTerrain/komienbp 16 16 0 1 1
+( -864 -96 128 ) ( -896 -96 128 ) ( -960 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -896 -96 128 ) ( -864 -96 128 ) ( -864 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 -64 192 ) ( -864 -160 192 ) ( -960 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -960 -64 192 ) ( -896 -64 128 ) ( -864 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -864 -96 128 ) ( -864 -160 192 ) ( -864 -64 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 101
+{
+( -640 -160 192 ) ( -640 -96 128 ) ( -640 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -640 -160 192 ) ( -544 -160 192 ) ( -608 -96 128 ) PlaceHodlerTerrain/komienbp -16 -16 90 1 1
+( -608 -96 128 ) ( -608 -64 128 ) ( -640 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -640 -64 192 ) ( -544 -64 192 ) ( -544 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -608 -64 128 ) ( -544 -64 192 ) ( -640 -64 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -608 -64 128 ) ( -608 -96 128 ) ( -544 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 102
+{
+( -864 -96 128 ) ( -864 -96 192 ) ( -864 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 -160 192 ) ( -640 -96 128 ) ( -864 -96 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 -96 192 ) ( -640 -96 192 ) ( -640 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 -96 128 ) ( -640 -96 192 ) ( -864 -96 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 -160 192 ) ( -640 -96 192 ) ( -640 -96 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 103
+{
+( -640 352 128 ) ( -640 416 192 ) ( -640 320 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -544 320 192 ) ( -608 320 128 ) ( -640 320 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+( -608 352 128 ) ( -640 352 128 ) ( -640 320 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 320 192 ) ( -640 416 192 ) ( -544 416 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 352 128 ) ( -608 352 128 ) ( -544 416 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -544 320 192 ) ( -544 416 192 ) ( -608 352 128 ) PlaceHodlerTerrain/komienbp -16 -16 180 1 1
+}
+// brush 104
+{
+( -1056 352 128 ) ( -992 416 192 ) ( -1056 352 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 352 192 ) ( -992 352 192 ) ( -992 352 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 352 192 ) ( -992 416 192 ) ( -992 352 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -992 352 128 ) ( -992 416 192 ) ( -1056 352 128 ) PlaceHodlerTerrain/komienbp -8.533295 -21.333435 90 1 1
+( -992 352 192 ) ( -992 416 192 ) ( -992 352 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 105
+{
+( -1056 416 128 ) ( -1056 416 192 ) ( -1056 352 192 ) PlaceHodlerTerrain/komienbp -2.1332397 0 0 1 1
+( -1056 352 192 ) ( -1056 416 192 ) ( -992 416 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -992 416 192 ) ( -1056 416 192 ) ( -1056 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 352 192 ) ( -992 416 192 ) ( -1056 352 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 416 192 ) ( -1056 416 128 ) ( -1056 352 128 ) PlaceHodlerTerrain/komienbp -10.666595 0 90 1 1
+}
+// brush 106
+{
+( -992 352 192 ) ( -992 352 128 ) ( -992 416 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 352 192 ) ( -640 352 192 ) ( -640 352 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 416 192 ) ( -640 416 192 ) ( -640 352 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 352 128 ) ( -640 416 192 ) ( -992 416 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 352 192 ) ( -640 416 192 ) ( -640 352 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 107
+{
+( -1056 480 192 ) ( -1056 416 192 ) ( -1056 416 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 416 192 ) ( -992 416 192 ) ( -1056 416 128 ) PlaceHodlerTerrain/komienbp -31.999939 0 180 1 -1
+( -1056 480 192 ) ( -992 480 192 ) ( -992 416 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -1056 480 128 ) ( -992 480 192 ) ( -1056 480 192 ) PlaceHodlerTerrain/komienbp -31.999939 0 180 1 -1
+( -992 416 192 ) ( -992 480 192 ) ( -1056 480 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 108
+{
+( -1056 544 192 ) ( -1056 480 192 ) ( -1056 480 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 480 192 ) ( -992 480 192 ) ( -1056 480 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 544 192 ) ( -992 480 192 ) ( -1056 480 192 ) PlaceHodlerTerrain/komienbp 0 -31.99997 0 1 1
+( -1056 480 128 ) ( -992 480 192 ) ( -1056 544 128 ) PlaceHodlerTerrain/komienbp 23.466675 -21.333405 0 1 1
+( -1056 544 128 ) ( -992 480 192 ) ( -1056 544 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 109
+{
+( -1056 544 192 ) ( -992 480 192 ) ( -1056 544 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 480 192 ) ( -992 544 128 ) ( -1056 544 128 ) PlaceHodlerTerrain/komienbp 21.333374 -31.999939 0 1 1
+( -1056 544 192 ) ( -992 544 192 ) ( -992 480 192 ) PlaceHodlerTerrain/komienbp 0 -31.999939 0 1 1
+( -992 544 128 ) ( -992 544 192 ) ( -1056 544 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 0 1 1
+( -992 480 192 ) ( -992 544 192 ) ( -992 544 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+}
+// brush 110
+{
+( -608 320 192 ) ( -608 -64 192 ) ( -608 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -608 -64 192 ) ( -544 -64 192 ) ( -608 -64 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -608 320 192 ) ( -544 320 192 ) ( -544 -64 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -608 320 128 ) ( -544 320 192 ) ( -608 320 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -544 -64 192 ) ( -544 320 192 ) ( -608 320 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 111
+{
+( -992 544 192 ) ( -992 480 192 ) ( -992 544 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 544 128 ) ( -992 480 192 ) ( -640 480 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 480 192 ) ( -992 480 192 ) ( -992 544 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 544 192 ) ( -992 544 192 ) ( -992 544 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 544 192 ) ( -640 544 128 ) ( -640 480 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 112
+{
+( -640 480 192 ) ( -640 544 128 ) ( -640 576 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -640 480 192 ) ( -544 480 192 ) ( -608 544 128 ) PlaceHodlerTerrain/komienbp -16 -16 90 1 1
+( -608 544 128 ) ( -608 576 128 ) ( -640 576 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -640 576 192 ) ( -544 576 192 ) ( -544 480 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -608 576 128 ) ( -544 576 192 ) ( -640 576 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -608 576 128 ) ( -608 544 128 ) ( -544 480 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 113
+{
+( -640 608 128 ) ( -640 672 192 ) ( -640 576 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -544 576 192 ) ( -608 576 128 ) ( -640 576 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+( -608 608 128 ) ( -640 608 128 ) ( -640 576 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 576 192 ) ( -640 672 192 ) ( -544 672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 608 128 ) ( -608 608 128 ) ( -544 672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -544 576 192 ) ( -544 672 192 ) ( -608 608 128 ) PlaceHodlerTerrain/komienbp -16 -16 180 1 1
+}
+// brush 114
+{
+( -1056 608 128 ) ( -992 672 192 ) ( -1056 608 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( -1056 608 192 ) ( -992 608 192 ) ( -992 608 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 608 192 ) ( -992 672 192 ) ( -992 608 192 ) PlaceHodlerTerrain/komienbp -31.999939 0 90 1 1
+( -992 608 128 ) ( -992 672 192 ) ( -1056 608 128 ) PlaceHodlerTerrain/komienbp -8.533264 -21.333435 90 1 1
+( -992 608 192 ) ( -992 672 192 ) ( -992 608 128 ) PlaceHodlerTerrain/komienbp -31.999939 0 0 1 1
+}
+// brush 115
+{
+( -1056 672 128 ) ( -1056 672 192 ) ( -1056 608 192 ) PlaceHodlerTerrain/komienbp -2.1332397 0 0 1 1
+( -1056 608 192 ) ( -1056 672 192 ) ( -992 672 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -992 672 192 ) ( -1056 672 192 ) ( -1056 672 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 608 192 ) ( -992 672 192 ) ( -1056 608 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( -992 672 192 ) ( -1056 672 128 ) ( -1056 608 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 90 1 1
+}
+// brush 116
+{
+( -992 608 192 ) ( -992 608 128 ) ( -992 672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 608 192 ) ( -640 608 192 ) ( -640 608 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 672 192 ) ( -640 672 192 ) ( -640 608 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 608 128 ) ( -640 672 192 ) ( -992 672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 608 192 ) ( -640 672 192 ) ( -640 608 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 117
+{
+( -1056 1152 192 ) ( -1056 1088 192 ) ( -1056 1088 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 1088 192 ) ( -992 1088 192 ) ( -1056 1088 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 1152 192 ) ( -992 1088 192 ) ( -1056 1088 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 1088 128 ) ( -992 1088 192 ) ( -1056 1152 128 ) PlaceHodlerTerrain/komienbp -8.533325 10.666626 0 1 1
+( -1056 1152 128 ) ( -992 1088 192 ) ( -1056 1152 192 ) PlaceHodlerTerrain/komienbp -31.999878 0 0 1 1
+}
+// brush 118
+{
+( -1056 1152 192 ) ( -992 1088 192 ) ( -1056 1152 128 ) PlaceHodlerTerrain/komienbp -31.999878 0 0 1 1
+( -992 1088 192 ) ( -992 1152 128 ) ( -1056 1152 128 ) PlaceHodlerTerrain/komienbp -10.666626 31.999878 0 1 1
+( -1056 1152 192 ) ( -992 1152 192 ) ( -992 1088 192 ) PlaceHodlerTerrain/komienbp 0 31.999878 0 1 1
+( -992 1152 128 ) ( -992 1152 192 ) ( -1056 1152 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 0 1 1
+( -992 1088 192 ) ( -992 1152 192 ) ( -992 1152 128 ) PlaceHodlerTerrain/komienbp -31.999878 0 0 1 1
+}
+// brush 119
+{
+( -1056 1088 192 ) ( -1056 672 192 ) ( -1056 672 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 672 192 ) ( -992 672 192 ) ( -1056 672 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 1088 192 ) ( -992 1088 192 ) ( -992 672 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -1056 1088 128 ) ( -992 1088 192 ) ( -1056 1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 672 192 ) ( -992 1088 192 ) ( -1056 1088 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 120
+{
+( -192 -1152 128 ) ( -128 -1088 192 ) ( -192 -1152 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -192 -1152 192 ) ( -128 -1152 192 ) ( -128 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -192 -1152 192 ) ( -128 -1088 192 ) ( -128 -1152 192 ) PlaceHodlerTerrain/komienbp 0 31.999992 90 1 1
+( -128 -1152 128 ) ( -128 -1088 192 ) ( -192 -1152 128 ) PlaceHodlerTerrain/komienbp -8.533325 10.66658 90 1 1
+( -128 -1152 192 ) ( -128 -1088 192 ) ( -128 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 121
+{
+( -192 -1088 128 ) ( -192 -1088 192 ) ( -192 -1152 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 0 1 1
+( -192 -1152 192 ) ( -192 -1088 192 ) ( -128 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -128 -1088 192 ) ( -192 -1088 192 ) ( -192 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -192 -1152 192 ) ( -128 -1088 192 ) ( -192 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -128 -1088 192 ) ( -192 -1088 128 ) ( -192 -1152 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 90 1 1
+}
+// brush 122
+{
+( 800 -1152 128 ) ( 736 -1088 192 ) ( 800 -1152 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 800 -1088 128 ) ( 736 -1088 192 ) ( 800 -1152 128 ) PlaceHodlerTerrain/komienbp 23.466675 -21.333374 180 1 1
+( 800 -1152 192 ) ( 736 -1088 192 ) ( 800 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -1088 192 ) ( 736 -1088 192 ) ( 800 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 800 -1152 192 ) ( 800 -1088 192 ) ( 800 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 123
+{
+( 736 -1088 192 ) ( 736 -1152 192 ) ( 736 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 736 -1152 128 ) ( 736 -1152 192 ) ( 800 -1152 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+( 800 -1152 192 ) ( 736 -1152 192 ) ( 736 -1088 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 1
+( 736 -1088 192 ) ( 736 -1152 128 ) ( 800 -1152 128 ) PlaceHodlerTerrain/komienbp 21.333313 0 180 1 1
+( 800 -1152 192 ) ( 736 -1088 192 ) ( 800 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 124
+{
+( -128 -1152 192 ) ( -128 -1152 128 ) ( -128 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -128 -1152 192 ) ( 736 -1152 192 ) ( 736 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -128 -1088 192 ) ( 736 -1088 192 ) ( 736 -1152 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 736 -1152 128 ) ( 736 -1088 192 ) ( -128 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 736 -1152 192 ) ( 736 -1088 192 ) ( 736 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 125
+{
+( -192 -960 192 ) ( -192 -1088 192 ) ( -192 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -192 -1088 192 ) ( -128 -1088 192 ) ( -192 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -192 -960 192 ) ( -128 -960 192 ) ( -128 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -192 -960 128 ) ( -128 -960 192 ) ( -192 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -128 -1088 192 ) ( -128 -960 192 ) ( -192 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 126
+{
+( -192 -896 192 ) ( -192 -960 192 ) ( -192 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -192 -960 192 ) ( -128 -960 192 ) ( -192 -960 128 ) PlaceHodlerTerrain/komienbp -31.999954 0 0 1 1
+( -192 -896 192 ) ( -128 -960 192 ) ( -192 -960 192 ) PlaceHodlerTerrain/komienbp -31.999954 0 0 1 1
+( -192 -960 128 ) ( -128 -960 192 ) ( -192 -896 128 ) PlaceHodlerTerrain/komienbp -8.533279 -21.333374 0 1 1
+( -192 -896 128 ) ( -128 -960 192 ) ( -192 -896 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+}
+// brush 127
+{
+( -192 -896 192 ) ( -128 -960 192 ) ( -192 -896 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+( -128 -960 192 ) ( -128 -896 128 ) ( -192 -896 128 ) PlaceHodlerTerrain/komienbp -10.666611 -31.999939 0 1 1
+( -192 -896 192 ) ( -128 -896 192 ) ( -128 -960 192 ) PlaceHodlerTerrain/komienbp -31.999985 -31.999939 0 1 1
+( -128 -896 128 ) ( -128 -896 192 ) ( -192 -896 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 0 1 1
+( -128 -960 192 ) ( -128 -896 192 ) ( -128 -896 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+}
+// brush 128
+{
+( 160 -800 192 ) ( 160 -960 192 ) ( 160 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 160 -896 128 ) ( 160 -960 192 ) ( 256 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 160 -864 128 ) ( 160 -896 128 ) ( 192 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 256 -960 192 ) ( 160 -960 192 ) ( 160 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 160 -800 192 ) ( 160 -864 128 ) ( 192 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 192 -896 128 ) ( 256 -960 192 ) ( 256 -800 192 ) PlaceHodlerTerrain/komienbp 16 16 180 1 1
+}
+// brush 129
+{
+( 416 -864 128 ) ( 352 -800 192 ) ( 352 -960 192 ) PlaceHodlerTerrain/komienbp 16 -16 0 1 1
+( 448 -960 192 ) ( 448 -896 128 ) ( 416 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 448 -896 128 ) ( 448 -864 128 ) ( 416 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 -800 192 ) ( 448 -800 192 ) ( 448 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 448 -864 128 ) ( 448 -800 192 ) ( 352 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 448 -960 192 ) ( 448 -800 192 ) ( 448 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 130
+{
+( -224 -896 128 ) ( -224 -864 128 ) ( -288 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -224 -896 128 ) ( -288 -896 192 ) ( -192 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -224 -864 128 ) ( -224 -896 128 ) ( -192 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -192 -896 192 ) ( -288 -896 192 ) ( -288 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -192 -800 192 ) ( -288 -800 192 ) ( -224 -864 128 ) PlaceHodlerTerrain/komienbp -16 -16 270 1 1
+( -192 -800 192 ) ( -192 -864 128 ) ( -192 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+}
+// brush 131
+{
+( -224 -1088 128 ) ( -224 -896 128 ) ( -288 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -288 -1088 192 ) ( -224 -1088 192 ) ( -224 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -288 -896 192 ) ( -224 -896 192 ) ( -224 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -224 -896 128 ) ( -224 -896 192 ) ( -288 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -224 -1088 192 ) ( -224 -896 192 ) ( -224 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 132
+{
+( -192 -864 192 ) ( -192 -864 128 ) ( -192 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -192 -864 192 ) ( 160 -864 192 ) ( 160 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -192 -800 192 ) ( 160 -800 192 ) ( 160 -864 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 160 -864 128 ) ( 160 -800 192 ) ( -192 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 160 -864 192 ) ( 160 -800 192 ) ( 160 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 133
+{
+( -128 -896 128 ) ( -128 -896 192 ) ( -128 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 160 -960 192 ) ( 160 -896 128 ) ( -128 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -128 -896 192 ) ( 160 -896 192 ) ( 160 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 160 -896 128 ) ( 160 -896 192 ) ( -128 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 160 -960 192 ) ( 160 -896 192 ) ( 160 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 134
+{
+( 448 -896 128 ) ( 448 -896 192 ) ( 448 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 736 -960 192 ) ( 736 -896 128 ) ( 448 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 448 -896 192 ) ( 736 -896 192 ) ( 736 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 736 -896 128 ) ( 736 -896 192 ) ( 448 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 736 -960 192 ) ( 736 -896 192 ) ( 736 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 135
+{
+( 736 -896 192 ) ( 736 -960 192 ) ( 736 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 736 -896 128 ) ( 736 -960 192 ) ( 800 -896 128 ) PlaceHodlerTerrain/komienbp -8.533203 10.666626 270 1 1
+( 800 -896 192 ) ( 736 -960 192 ) ( 736 -896 192 ) PlaceHodlerTerrain/komienbp 0 31.999939 270 1 1
+( 800 -896 192 ) ( 736 -896 192 ) ( 736 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -896 128 ) ( 736 -960 192 ) ( 800 -896 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+}
+// brush 136
+{
+( 736 -960 192 ) ( 800 -960 128 ) ( 800 -896 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 270 1 1
+( 800 -896 192 ) ( 736 -960 192 ) ( 800 -896 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 0 1 1
+( 736 -960 192 ) ( 800 -960 192 ) ( 800 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -896 192 ) ( 800 -960 192 ) ( 736 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 800 -960 128 ) ( 800 -960 192 ) ( 800 -896 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+}
+// brush 137
+{
+( 736 -960 192 ) ( 736 -1088 192 ) ( 800 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 800 -1088 128 ) ( 736 -1088 192 ) ( 800 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -1088 192 ) ( 736 -1088 192 ) ( 736 -960 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 800 -960 192 ) ( 736 -960 192 ) ( 800 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -1088 192 ) ( 800 -960 192 ) ( 800 -960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 138
+{
+( 832 -1152 128 ) ( 896 -1088 192 ) ( 832 -1152 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 832 -1152 192 ) ( 896 -1152 192 ) ( 896 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 832 -1152 192 ) ( 896 -1088 192 ) ( 896 -1152 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 896 -1152 128 ) ( 896 -1088 192 ) ( 832 -1152 128 ) PlaceHodlerTerrain/komienbp -8.533325 10.666565 90 1 1
+( 896 -1152 192 ) ( 896 -1088 192 ) ( 896 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 139
+{
+( 832 -1088 128 ) ( 832 -1088 192 ) ( 832 -1152 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 0 1 1
+( 832 -1152 192 ) ( 832 -1088 192 ) ( 896 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 896 -1088 192 ) ( 832 -1088 192 ) ( 832 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 832 -1152 192 ) ( 896 -1088 192 ) ( 832 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 896 -1088 192 ) ( 832 -1088 128 ) ( 832 -1152 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 90 1 1
+}
+// brush 140
+{
+( 800 -864 128 ) ( 800 -800 192 ) ( 800 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 896 -896 192 ) ( 832 -896 128 ) ( 800 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+( 832 -864 128 ) ( 800 -864 128 ) ( 800 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -896 192 ) ( 800 -800 192 ) ( 896 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -864 128 ) ( 832 -864 128 ) ( 896 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 896 -896 192 ) ( 896 -800 192 ) ( 832 -864 128 ) PlaceHodlerTerrain/komienbp 16 -16 180 1 1
+}
+// brush 141
+{
+( 832 -896 192 ) ( 832 -1088 192 ) ( 832 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 832 -1088 192 ) ( 896 -1088 192 ) ( 832 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 832 -896 192 ) ( 896 -896 192 ) ( 896 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 832 -896 128 ) ( 896 -896 192 ) ( 832 -896 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 896 -1088 192 ) ( 896 -896 192 ) ( 832 -896 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 142
+{
+( 896 -1152 192 ) ( 896 -1152 128 ) ( 896 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 896 -1152 192 ) ( 992 -1152 192 ) ( 992 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 896 -1088 192 ) ( 992 -1088 192 ) ( 992 -1152 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 992 -1152 128 ) ( 992 -1088 192 ) ( 896 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 992 -1152 192 ) ( 992 -1088 192 ) ( 992 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 143
+{
+( 1056 -1152 128 ) ( 992 -1088 192 ) ( 1056 -1152 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 1056 -1088 128 ) ( 992 -1088 192 ) ( 1056 -1152 128 ) PlaceHodlerTerrain/komienbp -8.533325 -21.333374 180 1 1
+( 1056 -1152 192 ) ( 992 -1088 192 ) ( 1056 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 1056 -1088 192 ) ( 992 -1088 192 ) ( 1056 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 1056 -1152 192 ) ( 1056 -1088 192 ) ( 1056 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 144
+{
+( 992 -1088 192 ) ( 992 -1152 192 ) ( 992 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 992 -1152 128 ) ( 992 -1152 192 ) ( 1056 -1152 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+( 1056 -1152 192 ) ( 992 -1152 192 ) ( 992 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 992 -1088 192 ) ( 992 -1152 128 ) ( 1056 -1152 128 ) PlaceHodlerTerrain/komienbp -10.666687 0 180 1 1
+( 1056 -1152 192 ) ( 992 -1088 192 ) ( 1056 -1152 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 145
+{
+( 992 192 192 ) ( 992 128 192 ) ( 992 192 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 992 192 128 ) ( 992 128 192 ) ( 1056 192 128 ) PlaceHodlerTerrain/komienbp 23.466782 -21.333435 270 1 1
+( 1056 192 192 ) ( 992 128 192 ) ( 992 192 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 1056 192 192 ) ( 992 192 192 ) ( 992 192 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 1056 192 128 ) ( 992 128 192 ) ( 1056 192 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 146
+{
+( 992 128 192 ) ( 1056 128 128 ) ( 1056 192 128 ) PlaceHodlerTerrain/komienbp 21.33339 0 270 1 1
+( 1056 192 192 ) ( 992 128 192 ) ( 1056 192 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 128 192 ) ( 1056 128 192 ) ( 1056 128 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 1056 192 192 ) ( 1056 128 192 ) ( 992 128 192 ) PlaceHodlerTerrain/komienbp 31.999992 0 270 1 1
+( 1056 128 128 ) ( 1056 128 192 ) ( 1056 192 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+}
+// brush 147
+{
+( 1056 -1088 128 ) ( 1056 128 128 ) ( 992 128 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 992 -1088 192 ) ( 1056 -1088 192 ) ( 1056 -1088 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 128 192 ) ( 1056 128 192 ) ( 1056 -1088 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 1056 128 128 ) ( 1056 128 192 ) ( 992 128 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 1056 -1088 192 ) ( 1056 128 192 ) ( 1056 128 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 148
+{
+( 800 -768 192 ) ( 800 -704 128 ) ( 800 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 800 -768 192 ) ( 896 -768 192 ) ( 832 -704 128 ) PlaceHodlerTerrain/komienbp -16 -16 90 1 1
+( 832 -704 128 ) ( 832 -672 128 ) ( 800 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 800 -672 192 ) ( 896 -672 192 ) ( 896 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 832 -672 128 ) ( 896 -672 192 ) ( 800 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 832 -672 128 ) ( 832 -704 128 ) ( 896 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 149
+{
+( 448 -864 192 ) ( 448 -864 128 ) ( 448 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 448 -864 192 ) ( 800 -864 192 ) ( 800 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 448 -800 192 ) ( 800 -800 192 ) ( 800 -864 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -864 128 ) ( 800 -800 192 ) ( 448 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -864 192 ) ( 800 -800 192 ) ( 800 -864 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 150
+{
+( 480 -672 192 ) ( 480 -672 128 ) ( 480 -608 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 480 -672 192 ) ( 736 -672 192 ) ( 736 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 480 -608 192 ) ( 736 -608 192 ) ( 736 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 736 -672 128 ) ( 736 -608 192 ) ( 480 -608 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 736 -672 192 ) ( 736 -608 192 ) ( 736 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 151
+{
+( 800 -672 128 ) ( 736 -608 192 ) ( 800 -672 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( 800 -608 128 ) ( 736 -608 192 ) ( 800 -672 128 ) PlaceHodlerTerrain/komienbp -8.533325 -21.333435 180 1 1
+( 800 -672 192 ) ( 736 -608 192 ) ( 800 -608 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -608 192 ) ( 736 -608 192 ) ( 800 -608 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 800 -672 192 ) ( 800 -608 192 ) ( 800 -608 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 152
+{
+( 736 -608 192 ) ( 736 -672 192 ) ( 736 -672 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( 736 -672 128 ) ( 736 -672 192 ) ( 800 -672 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+( 800 -672 192 ) ( 736 -672 192 ) ( 736 -608 192 ) PlaceHodlerTerrain/komienbp 0 -31.999939 180 1 1
+( 736 -608 192 ) ( 736 -672 128 ) ( 800 -672 128 ) PlaceHodlerTerrain/komienbp -10.666687 -31.999939 180 1 1
+( 800 -672 192 ) ( 736 -608 192 ) ( 800 -672 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+}
+// brush 153
+{
+( 416 -672 128 ) ( 480 -608 192 ) ( 416 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 416 -672 192 ) ( 480 -672 192 ) ( 480 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 416 -672 192 ) ( 480 -608 192 ) ( 480 -672 192 ) PlaceHodlerTerrain/komienbp 0 -31.99997 90 1 1
+( 480 -672 128 ) ( 480 -608 192 ) ( 416 -672 128 ) PlaceHodlerTerrain/komienbp 23.466736 -21.333405 90 1 1
+( 480 -672 192 ) ( 480 -608 192 ) ( 480 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 154
+{
+( 416 -608 128 ) ( 416 -608 192 ) ( 416 -672 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 0 1 1
+( 416 -672 192 ) ( 416 -608 192 ) ( 480 -608 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 480 -608 192 ) ( 416 -608 192 ) ( 416 -608 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 416 -672 192 ) ( 480 -608 192 ) ( 416 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 480 -608 192 ) ( 416 -608 128 ) ( 416 -672 128 ) PlaceHodlerTerrain/komienbp 21.333313 0 90 1 1
+}
+// brush 155
+{
+( 416 -704 128 ) ( 416 -704 192 ) ( 416 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -768 192 ) ( 800 -704 128 ) ( 416 -704 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 416 -704 192 ) ( 800 -704 192 ) ( 800 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -704 128 ) ( 800 -704 192 ) ( 416 -704 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -768 192 ) ( 800 -704 192 ) ( 800 -704 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 156
+{
+( 320 -672 192 ) ( 320 -768 192 ) ( 384 -704 128 ) PlaceHodlerTerrain/komienbp -16 16 0 1 1
+( 416 -704 128 ) ( 384 -704 128 ) ( 320 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 384 -704 128 ) ( 416 -704 128 ) ( 416 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 416 -672 192 ) ( 416 -768 192 ) ( 320 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 320 -672 192 ) ( 384 -672 128 ) ( 416 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 416 -704 128 ) ( 416 -768 192 ) ( 416 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 157
+{
+( -256 192 192 ) ( -256 256 128 ) ( -256 288 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -256 192 192 ) ( -160 192 192 ) ( -224 256 128 ) PlaceHodlerTerrain/komienbp -16 -16 90 1 1
+( -224 256 128 ) ( -224 288 128 ) ( -256 288 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -256 288 192 ) ( -160 288 192 ) ( -160 192 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -224 288 128 ) ( -160 288 192 ) ( -256 288 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -224 288 128 ) ( -224 256 128 ) ( -160 192 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 158
+{
+( -512 288 192 ) ( -512 192 192 ) ( -448 256 128 ) PlaceHodlerTerrain/komienbp 16 -16 0 1 1
+( -416 256 128 ) ( -448 256 128 ) ( -512 192 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -448 256 128 ) ( -416 256 128 ) ( -416 288 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 288 192 ) ( -416 192 192 ) ( -512 192 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -512 288 192 ) ( -448 288 128 ) ( -416 288 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -416 256 128 ) ( -416 192 192 ) ( -416 288 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 159
+{
+( -960 800 192 ) ( -960 704 192 ) ( -896 768 128 ) PlaceHodlerTerrain/komienbp -16 -16 0 1 1
+( -864 768 128 ) ( -896 768 128 ) ( -960 704 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -896 768 128 ) ( -864 768 128 ) ( -864 800 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 800 192 ) ( -864 704 192 ) ( -960 704 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -960 800 192 ) ( -896 800 128 ) ( -864 800 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -864 768 128 ) ( -864 704 192 ) ( -864 800 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 160
+{
+( -896 960 128 ) ( -896 992 128 ) ( -960 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -896 960 128 ) ( -960 960 192 ) ( -864 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -896 992 128 ) ( -896 960 128 ) ( -864 960 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -864 960 192 ) ( -960 960 192 ) ( -960 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -864 1056 192 ) ( -960 1056 192 ) ( -896 992 128 ) PlaceHodlerTerrain/komienbp -16 -16 270 1 1
+( -864 1056 192 ) ( -864 992 128 ) ( -864 960 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+}
+// brush 161
+{
+( -896 800 128 ) ( -896 960 128 ) ( -960 960 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -960 800 192 ) ( -896 800 192 ) ( -896 800 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -960 960 192 ) ( -896 960 192 ) ( -896 800 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -896 960 128 ) ( -896 960 192 ) ( -960 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -896 800 192 ) ( -896 960 192 ) ( -896 960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 162
+{
+( -864 896 192 ) ( -864 864 192 ) ( -864 864 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 864 192 ) ( -800 864 192 ) ( -864 864 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 896 192 ) ( -800 896 192 ) ( -800 864 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -864 896 128 ) ( -800 896 192 ) ( -864 896 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 896 128 ) ( -864 864 128 ) ( -800 864 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 163
+{
+( -864 960 192 ) ( -864 896 192 ) ( -864 896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 896 192 ) ( -800 896 192 ) ( -864 896 128 ) PlaceHodlerTerrain/komienbp -31.999939 0 0 1 1
+( -864 960 192 ) ( -800 896 192 ) ( -864 896 192 ) PlaceHodlerTerrain/komienbp -31.999939 0 0 1 1
+( -864 896 128 ) ( -800 896 192 ) ( -864 960 128 ) PlaceHodlerTerrain/komienbp -8.533264 -21.333435 0 1 1
+( -864 960 128 ) ( -800 896 192 ) ( -864 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 164
+{
+( -864 960 192 ) ( -800 896 192 ) ( -864 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -800 896 192 ) ( -800 960 128 ) ( -864 960 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 0 1 1
+( -864 960 192 ) ( -800 960 192 ) ( -800 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -800 960 128 ) ( -800 960 192 ) ( -864 960 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 0 1 1
+( -800 896 192 ) ( -800 960 192 ) ( -800 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 165
+{
+( -864 800 128 ) ( -800 864 192 ) ( -864 800 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( -864 800 192 ) ( -800 800 192 ) ( -800 800 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 800 192 ) ( -800 864 192 ) ( -800 800 192 ) PlaceHodlerTerrain/komienbp -31.999939 0 90 1 1
+( -800 800 128 ) ( -800 864 192 ) ( -864 800 128 ) PlaceHodlerTerrain/komienbp -8.533264 -21.333435 90 1 1
+( -800 800 192 ) ( -800 864 192 ) ( -800 800 128 ) PlaceHodlerTerrain/komienbp -31.999939 0 0 1 1
+}
+// brush 166
+{
+( -864 864 128 ) ( -864 864 192 ) ( -864 800 192 ) PlaceHodlerTerrain/komienbp -2.1332397 0 0 1 1
+( -864 800 192 ) ( -864 864 192 ) ( -800 864 192 ) PlaceHodlerTerrain/komienbp 0 -31.999939 90 1 1
+( -800 864 192 ) ( -864 864 192 ) ( -864 864 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( -864 800 192 ) ( -800 864 192 ) ( -864 800 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( -800 864 192 ) ( -864 864 128 ) ( -864 800 128 ) PlaceHodlerTerrain/komienbp -10.666626 -31.999939 90 1 1
+}
+// brush 167
+{
+( -640 864 192 ) ( -640 704 192 ) ( -640 768 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -640 768 128 ) ( -640 704 192 ) ( -544 704 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 800 128 ) ( -640 768 128 ) ( -608 768 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -544 704 192 ) ( -640 704 192 ) ( -640 864 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 864 192 ) ( -640 800 128 ) ( -608 800 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -608 768 128 ) ( -544 704 192 ) ( -544 864 192 ) PlaceHodlerTerrain/komienbp 16 16 180 1 1
+}
+// brush 168
+{
+( -800 800 192 ) ( -800 800 128 ) ( -800 864 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -800 800 192 ) ( -640 800 192 ) ( -640 800 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -800 864 192 ) ( -640 864 192 ) ( -640 800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 800 128 ) ( -640 864 192 ) ( -800 864 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -640 800 192 ) ( -640 864 192 ) ( -640 800 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 169
+{
+( -864 768 128 ) ( -864 768 192 ) ( -864 704 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 704 192 ) ( -640 768 128 ) ( -864 768 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -864 768 192 ) ( -640 768 192 ) ( -640 704 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 768 128 ) ( -640 768 192 ) ( -864 768 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -640 704 192 ) ( -640 768 192 ) ( -640 768 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 170
+{
+( -512 960 192 ) ( -512 896 192 ) ( -512 960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -512 960 128 ) ( -512 896 192 ) ( -448 960 128 ) PlaceHodlerTerrain/komienbp 23.466797 -21.333344 270 1 1
+( -448 960 192 ) ( -512 896 192 ) ( -512 960 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -448 960 192 ) ( -512 960 192 ) ( -512 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -448 960 128 ) ( -512 896 192 ) ( -448 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 171
+{
+( -512 896 192 ) ( -448 896 128 ) ( -448 960 128 ) PlaceHodlerTerrain/komienbp 21.333374 0 270 1 1
+( -448 960 192 ) ( -512 896 192 ) ( -448 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -512 896 192 ) ( -448 896 192 ) ( -448 896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -448 960 192 ) ( -448 896 192 ) ( -512 896 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 270 1 1
+( -448 896 128 ) ( -448 896 192 ) ( -448 960 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+}
+// brush 172
+{
+( -800 960 128 ) ( -800 960 192 ) ( -800 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -512 896 192 ) ( -512 960 128 ) ( -800 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -800 960 192 ) ( -512 960 192 ) ( -512 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -512 960 128 ) ( -512 960 192 ) ( -800 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -512 896 192 ) ( -512 960 192 ) ( -512 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 173
+{
+( -448 288 128 ) ( -448 896 128 ) ( -512 896 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -512 288 192 ) ( -448 288 192 ) ( -448 288 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -512 896 192 ) ( -448 896 192 ) ( -448 288 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -448 896 128 ) ( -448 896 192 ) ( -512 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -448 288 192 ) ( -448 896 192 ) ( -448 896 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 174
+{
+( -448 992 128 ) ( -448 1056 192 ) ( -448 960 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -352 960 192 ) ( -416 960 128 ) ( -448 960 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+( -416 992 128 ) ( -448 992 128 ) ( -448 960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -448 960 192 ) ( -448 1056 192 ) ( -352 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -448 992 128 ) ( -416 992 128 ) ( -352 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -352 960 192 ) ( -352 1056 192 ) ( -416 992 128 ) PlaceHodlerTerrain/komienbp -16 -16 180 1 1
+}
+// brush 175
+{
+( -864 992 192 ) ( -864 992 128 ) ( -864 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 992 192 ) ( -448 992 192 ) ( -448 992 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -864 1056 192 ) ( -448 1056 192 ) ( -448 992 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -448 992 128 ) ( -448 1056 192 ) ( -864 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -448 992 192 ) ( -448 1056 192 ) ( -448 992 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 176
+{
+( -416 960 192 ) ( -416 352 192 ) ( -416 352 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 352 192 ) ( -352 352 192 ) ( -416 352 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 960 192 ) ( -352 960 192 ) ( -352 352 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -416 960 128 ) ( -352 960 192 ) ( -416 960 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 960 128 ) ( -416 352 128 ) ( -352 352 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 177
+{
+( -320 352 192 ) ( -320 288 192 ) ( -320 288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -320 288 128 ) ( -320 288 192 ) ( -256 288 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+( -256 288 192 ) ( -320 288 192 ) ( -320 352 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -320 352 192 ) ( -320 288 128 ) ( -256 288 128 ) PlaceHodlerTerrain/komienbp 21.333405 0 180 1 1
+( -256 288 192 ) ( -320 352 192 ) ( -256 288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 178
+{
+( -256 288 128 ) ( -320 352 192 ) ( -256 288 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -256 352 128 ) ( -320 352 192 ) ( -256 288 128 ) PlaceHodlerTerrain/komienbp 23.466766 10.6666565 180 1 1
+( -256 288 192 ) ( -320 352 192 ) ( -256 352 192 ) PlaceHodlerTerrain/komienbp 31.99997 0 180 1 1
+( -256 352 192 ) ( -320 352 192 ) ( -256 352 128 ) PlaceHodlerTerrain/komienbp 31.99997 0 180 1 -1
+( -256 288 192 ) ( -256 352 192 ) ( -256 352 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 179
+{
+( -416 288 128 ) ( -352 352 192 ) ( -416 288 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 288 192 ) ( -352 288 192 ) ( -352 288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 288 192 ) ( -352 352 192 ) ( -352 288 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -352 288 128 ) ( -352 352 192 ) ( -416 288 128 ) PlaceHodlerTerrain/komienbp 23.466705 10.6666565 90 1 1
+( -352 288 192 ) ( -352 352 192 ) ( -352 288 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 180
+{
+( -416 352 128 ) ( -416 352 192 ) ( -416 288 192 ) PlaceHodlerTerrain/komienbp 29.86676 0 0 1 1
+( -416 288 192 ) ( -416 352 192 ) ( -352 352 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -352 352 192 ) ( -416 352 192 ) ( -416 352 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -416 288 192 ) ( -352 352 192 ) ( -416 288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -352 352 192 ) ( -416 352 128 ) ( -416 288 128 ) PlaceHodlerTerrain/komienbp 21.333405 0 90 1 1
+}
+// brush 181
+{
+( -352 288 192 ) ( -352 288 128 ) ( -352 352 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -352 288 192 ) ( -320 288 192 ) ( -320 288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -352 352 192 ) ( -320 352 192 ) ( -320 288 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -320 288 128 ) ( -320 352 192 ) ( -352 352 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( -320 288 192 ) ( -320 352 192 ) ( -320 288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 182
+{
+( -256 960 128 ) ( -256 992 128 ) ( -320 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -256 960 128 ) ( -320 960 192 ) ( -224 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -256 992 128 ) ( -256 960 128 ) ( -224 960 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -224 960 192 ) ( -320 960 192 ) ( -320 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -224 1056 192 ) ( -320 1056 192 ) ( -256 992 128 ) PlaceHodlerTerrain/komienbp -16 -16 270 1 1
+( -224 1056 192 ) ( -224 992 128 ) ( -224 960 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+}
+// brush 183
+{
+( 352 320 192 ) ( 352 384 128 ) ( 352 416 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 352 320 192 ) ( 448 320 192 ) ( 384 384 128 ) PlaceHodlerTerrain/komienbp -16 16 90 1 1
+( 384 384 128 ) ( 384 416 128 ) ( 352 416 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 352 416 192 ) ( 448 416 192 ) ( 448 320 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 384 416 128 ) ( 448 416 192 ) ( 352 416 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 384 416 128 ) ( 384 384 128 ) ( 448 320 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 184
+{
+( 352 992 128 ) ( 352 1056 192 ) ( 352 960 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 448 960 192 ) ( 384 960 128 ) ( 352 960 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+( 384 992 128 ) ( 352 992 128 ) ( 352 960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 352 960 192 ) ( 352 1056 192 ) ( 448 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 352 992 128 ) ( 384 992 128 ) ( 448 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 448 960 192 ) ( 448 1056 192 ) ( 384 992 128 ) PlaceHodlerTerrain/komienbp 16 -16 180 1 1
+}
+// brush 185
+{
+( 544 960 128 ) ( 544 992 128 ) ( 480 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 544 960 128 ) ( 480 960 192 ) ( 576 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 544 992 128 ) ( 544 960 128 ) ( 576 960 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 576 960 192 ) ( 480 960 192 ) ( 480 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 576 1056 192 ) ( 480 1056 192 ) ( 544 992 128 ) PlaceHodlerTerrain/komienbp 16 16 270 1 1
+( 576 1056 192 ) ( 576 992 128 ) ( 576 960 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+}
+// brush 186
+{
+( 480 416 192 ) ( 480 320 192 ) ( 544 384 128 ) PlaceHodlerTerrain/komienbp -16 -16 0 1 1
+( 576 384 128 ) ( 544 384 128 ) ( 480 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 544 384 128 ) ( 576 384 128 ) ( 576 416 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 576 416 192 ) ( 576 320 192 ) ( 480 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 480 416 192 ) ( 544 416 128 ) ( 576 416 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 576 384 128 ) ( 576 320 192 ) ( 576 416 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 187
+{
+( 512 0 192 ) ( 576 0 128 ) ( 576 32 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 512 0 192 ) ( 672 0 192 ) ( 608 0 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 576 0 128 ) ( 608 0 128 ) ( 608 32 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 672 96 192 ) ( 672 0 192 ) ( 512 0 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 608 32 128 ) ( 672 96 192 ) ( 512 96 192 ) PlaceHodlerTerrain/komienbp 16 16 270 1 1
+( 608 0 128 ) ( 672 0 192 ) ( 672 96 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+}
+// brush 188
+{
+( 512 -224 192 ) ( 512 -320 192 ) ( 576 -256 128 ) PlaceHodlerTerrain/komienbp 16 -16 0 1 1
+( 608 -256 128 ) ( 576 -256 128 ) ( 512 -320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 576 -256 128 ) ( 608 -256 128 ) ( 608 -224 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 608 -224 192 ) ( 608 -320 192 ) ( 512 -320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 512 -224 192 ) ( 576 -224 128 ) ( 608 -224 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 608 -256 128 ) ( 608 -320 192 ) ( 608 -224 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 189
+{
+( 800 -224 128 ) ( 800 -160 192 ) ( 800 -256 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 896 -256 192 ) ( 832 -256 128 ) ( 800 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+( 832 -224 128 ) ( 800 -224 128 ) ( 800 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -256 192 ) ( 800 -160 192 ) ( 896 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -224 128 ) ( 832 -224 128 ) ( 896 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 896 -256 192 ) ( 896 -160 192 ) ( 832 -224 128 ) PlaceHodlerTerrain/komienbp 16 -16 180 1 1
+}
+// brush 190
+{
+( 832 -256 192 ) ( 832 -672 192 ) ( 832 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 832 -672 192 ) ( 896 -672 192 ) ( 832 -672 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( 832 -256 192 ) ( 896 -256 192 ) ( 896 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 832 -256 128 ) ( 896 -256 192 ) ( 832 -256 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( 896 -672 192 ) ( 896 -256 192 ) ( 832 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 191
+{
+( 672 -224 192 ) ( 672 -224 128 ) ( 672 -160 192 ) PlaceHodlerTerrain/komienbp 31.999985 0 180 1 -1
+( 672 -224 192 ) ( 800 -224 192 ) ( 800 -224 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 672 -160 192 ) ( 800 -160 192 ) ( 800 -224 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -224 128 ) ( 800 -160 192 ) ( 672 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 800 -224 192 ) ( 800 -160 192 ) ( 800 -224 128 ) PlaceHodlerTerrain/komienbp 31.999985 0 180 1 -1
+}
+// brush 192
+{
+( 608 -224 128 ) ( 672 -160 192 ) ( 608 -224 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 608 -224 192 ) ( 672 -224 192 ) ( 672 -224 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 608 -224 192 ) ( 672 -160 192 ) ( 672 -224 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 672 -224 128 ) ( 672 -160 192 ) ( 608 -224 128 ) PlaceHodlerTerrain/komienbp 23.46672 -21.333435 90 1 1
+( 672 -224 192 ) ( 672 -160 192 ) ( 672 -224 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 193
+{
+( 608 -160 128 ) ( 608 -160 192 ) ( 608 -224 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 0 1 1
+( 608 -224 192 ) ( 608 -160 192 ) ( 672 -160 192 ) PlaceHodlerTerrain/komienbp 0 -31.999939 90 1 1
+( 672 -160 192 ) ( 608 -160 192 ) ( 608 -160 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( 608 -224 192 ) ( 672 -160 192 ) ( 608 -224 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 672 -160 192 ) ( 608 -160 128 ) ( 608 -224 128 ) PlaceHodlerTerrain/komienbp 21.333328 -31.999939 90 1 1
+}
+// brush 194
+{
+( 608 0 192 ) ( 608 -160 192 ) ( 608 -160 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 608 -160 192 ) ( 672 -160 192 ) ( 608 -160 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 608 0 192 ) ( 672 0 192 ) ( 672 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 608 0 128 ) ( 672 0 192 ) ( 608 0 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 608 0 128 ) ( 608 -160 128 ) ( 672 -160 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 195
+{
+( 800 -608 128 ) ( 800 -320 128 ) ( 736 -320 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 736 -608 192 ) ( 800 -608 192 ) ( 800 -608 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 736 -320 192 ) ( 800 -320 192 ) ( 800 -608 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 800 -320 128 ) ( 800 -320 192 ) ( 736 -320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -608 192 ) ( 800 -320 192 ) ( 800 -320 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 196
+{
+( 736 -256 192 ) ( 736 -320 192 ) ( 736 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 736 -256 128 ) ( 736 -320 192 ) ( 800 -256 128 ) PlaceHodlerTerrain/komienbp 23.466766 10.666565 270 1 1
+( 800 -256 192 ) ( 736 -320 192 ) ( 736 -256 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 800 -256 192 ) ( 736 -256 192 ) ( 736 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -256 128 ) ( 736 -320 192 ) ( 800 -256 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 197
+{
+( 736 -320 192 ) ( 800 -320 128 ) ( 800 -256 128 ) PlaceHodlerTerrain/komienbp 21.333405 0 270 1 1
+( 800 -256 192 ) ( 736 -320 192 ) ( 800 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 736 -320 192 ) ( 800 -320 192 ) ( 800 -320 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 800 -256 192 ) ( 800 -320 192 ) ( 736 -320 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 800 -320 128 ) ( 800 -320 192 ) ( 800 -256 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+}
+// brush 198
+{
+( 608 -256 192 ) ( 608 -320 192 ) ( 608 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 608 -256 128 ) ( 608 -320 192 ) ( 736 -320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 736 -320 192 ) ( 608 -320 192 ) ( 608 -256 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 736 -256 192 ) ( 608 -256 192 ) ( 608 -256 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 736 -256 192 ) ( 736 -256 128 ) ( 736 -320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 199
+{
+( 576 -224 128 ) ( 576 0 128 ) ( 512 0 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 512 -224 192 ) ( 576 -224 192 ) ( 576 -224 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 512 0 192 ) ( 576 0 192 ) ( 576 -224 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 576 0 128 ) ( 576 0 192 ) ( 512 0 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 576 -224 192 ) ( 576 0 192 ) ( 576 0 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 200
+{
+( 384 192 128 ) ( 384 224 128 ) ( 320 288 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 384 192 128 ) ( 320 192 192 ) ( 416 192 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 384 224 128 ) ( 384 192 128 ) ( 416 192 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 416 192 192 ) ( 320 192 192 ) ( 320 288 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 416 288 192 ) ( 320 288 192 ) ( 384 224 128 ) PlaceHodlerTerrain/komienbp -16 16 270 1 1
+( 416 288 192 ) ( 416 224 128 ) ( 416 192 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+}
+// brush 201
+{
+( 384 -672 128 ) ( 384 192 128 ) ( 320 192 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 320 -672 192 ) ( 384 -672 192 ) ( 384 -672 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 320 192 192 ) ( 384 192 192 ) ( 384 -672 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 384 192 128 ) ( 384 192 192 ) ( 320 192 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 384 -672 192 ) ( 384 192 192 ) ( 384 192 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 202
+{
+( 416 192 192 ) ( 480 128 192 ) ( 416 192 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 480 128 192 ) ( 480 192 128 ) ( 416 192 128 ) PlaceHodlerTerrain/komienbp 21.333405 0 0 1 1
+( 416 192 192 ) ( 480 192 192 ) ( 480 128 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 480 192 128 ) ( 480 192 192 ) ( 416 192 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 0 1 1
+( 480 128 192 ) ( 480 192 192 ) ( 480 192 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 203
+{
+( 416 192 192 ) ( 416 128 192 ) ( 416 128 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 416 128 192 ) ( 480 128 192 ) ( 416 128 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 416 192 192 ) ( 480 128 192 ) ( 416 128 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 416 128 128 ) ( 480 128 192 ) ( 416 192 128 ) PlaceHodlerTerrain/komienbp 23.466705 10.66658 0 1 1
+( 416 192 128 ) ( 480 128 192 ) ( 416 192 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 204
+{
+( -32 768 192 ) ( 32 704 192 ) ( -32 768 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 32 704 192 ) ( 32 768 128 ) ( -32 768 128 ) PlaceHodlerTerrain/komienbp 21.333393 0 0 1 1
+( -32 768 192 ) ( 32 768 192 ) ( 32 704 192 ) PlaceHodlerTerrain/komienbp 31.999989 0 0 1 1
+( 32 768 128 ) ( 32 768 192 ) ( -32 768 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 0 1 1
+( 32 704 192 ) ( 32 768 192 ) ( 32 768 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 205
+{
+( -32 768 192 ) ( -32 704 192 ) ( -32 704 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -32 704 192 ) ( 32 704 192 ) ( -32 704 128 ) PlaceHodlerTerrain/komienbp 31.999996 0 0 1 1
+( -32 768 192 ) ( 32 704 192 ) ( -32 704 192 ) PlaceHodlerTerrain/komienbp 31.999996 31.999939 0 1 1
+( -32 704 128 ) ( 32 704 192 ) ( -32 768 128 ) PlaceHodlerTerrain/komienbp 23.466717 10.666565 0 1 1
+( -32 768 128 ) ( 32 704 192 ) ( -32 768 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 206
+{
+( -32 416 128 ) ( 32 480 192 ) ( -32 416 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -32 416 192 ) ( 32 416 192 ) ( 32 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -32 416 192 ) ( 32 480 192 ) ( 32 416 192 ) PlaceHodlerTerrain/komienbp 0 -31.99998 90 1 1
+( 32 416 128 ) ( 32 480 192 ) ( -32 416 128 ) PlaceHodlerTerrain/komienbp 23.466705 -21.333355 90 1 1
+( 32 416 192 ) ( 32 480 192 ) ( 32 416 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 207
+{
+( -32 480 128 ) ( -32 480 192 ) ( -32 416 192 ) PlaceHodlerTerrain/komienbp 29.86676 0 0 1 1
+( -32 416 192 ) ( -32 480 192 ) ( 32 480 192 ) PlaceHodlerTerrain/komienbp 0 -31.999989 90 1 1
+( 32 480 192 ) ( -32 480 192 ) ( -32 480 128 ) PlaceHodlerTerrain/komienbp 31.999989 0 180 1 -1
+( -32 416 192 ) ( 32 480 192 ) ( -32 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 32 480 192 ) ( -32 480 128 ) ( -32 416 128 ) PlaceHodlerTerrain/komienbp 21.333405 -31.999989 90 1 1
+}
+// brush 208
+{
+( 352 416 128 ) ( 288 480 192 ) ( 352 416 192 ) PlaceHodlerTerrain/komienbp 31.99997 0 180 1 -1
+( 352 480 128 ) ( 288 480 192 ) ( 352 416 128 ) PlaceHodlerTerrain/komienbp -8.533356 -21.333405 180 1 1
+( 352 416 192 ) ( 288 480 192 ) ( 352 480 192 ) PlaceHodlerTerrain/komienbp 0 -31.99997 180 1 1
+( 352 480 192 ) ( 288 480 192 ) ( 352 480 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 352 416 192 ) ( 352 480 192 ) ( 352 480 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 209
+{
+( 288 480 192 ) ( 288 416 192 ) ( 288 416 128 ) PlaceHodlerTerrain/komienbp 31.99997 0 180 1 -1
+( 288 416 128 ) ( 288 416 192 ) ( 352 416 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+( 352 416 192 ) ( 288 416 192 ) ( 288 480 192 ) PlaceHodlerTerrain/komienbp -31.99997 -31.99997 180 1 1
+( 288 480 192 ) ( 288 416 128 ) ( 352 416 128 ) PlaceHodlerTerrain/komienbp -10.6666565 -31.99997 180 1 1
+( 352 416 192 ) ( 288 480 192 ) ( 352 416 128 ) PlaceHodlerTerrain/komienbp 31.99997 0 180 1 -1
+}
+// brush 210
+{
+( 288 576 192 ) ( 288 512 192 ) ( 288 576 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 288 576 128 ) ( 288 512 192 ) ( 352 576 128 ) PlaceHodlerTerrain/komienbp -8.533203 10.666595 270 1 1
+( 352 576 192 ) ( 288 512 192 ) ( 288 576 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 352 576 192 ) ( 288 576 192 ) ( 288 576 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 576 128 ) ( 288 512 192 ) ( 352 576 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 211
+{
+( 288 512 192 ) ( 352 512 128 ) ( 352 576 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 270 1 1
+( 352 576 192 ) ( 288 512 192 ) ( 352 576 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 288 512 192 ) ( 352 512 192 ) ( 352 512 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 576 192 ) ( 352 512 192 ) ( 288 512 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 352 512 128 ) ( 352 512 192 ) ( 352 576 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+}
+// brush 212
+{
+( 288 960 192 ) ( 288 896 192 ) ( 288 960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 288 960 128 ) ( 288 896 192 ) ( 352 960 128 ) PlaceHodlerTerrain/komienbp 23.466797 -21.333405 270 1 1
+( 352 960 192 ) ( 288 896 192 ) ( 288 960 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 352 960 192 ) ( 288 960 192 ) ( 288 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 960 128 ) ( 288 896 192 ) ( 352 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 213
+{
+( 288 896 192 ) ( 352 896 128 ) ( 352 960 128 ) PlaceHodlerTerrain/komienbp 21.333374 0 270 1 1
+( 352 960 192 ) ( 288 896 192 ) ( 352 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 288 896 192 ) ( 352 896 192 ) ( 352 896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 960 192 ) ( 352 896 192 ) ( 288 896 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 352 896 128 ) ( 352 896 192 ) ( 352 960 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+}
+// brush 214
+{
+( 352 800 128 ) ( 288 864 192 ) ( 352 800 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( 352 864 128 ) ( 288 864 192 ) ( 352 800 128 ) PlaceHodlerTerrain/komienbp -8.533356 -21.333435 180 1 1
+( 352 800 192 ) ( 288 864 192 ) ( 352 864 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 352 864 192 ) ( 288 864 192 ) ( 352 864 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 352 800 192 ) ( 352 864 192 ) ( 352 864 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 215
+{
+( 288 864 192 ) ( 288 800 192 ) ( 288 800 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( 288 800 128 ) ( 288 800 192 ) ( 352 800 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+( 352 800 192 ) ( 288 800 192 ) ( 288 864 192 ) PlaceHodlerTerrain/komienbp -31.99997 -31.999939 180 1 1
+( 288 864 192 ) ( 288 800 128 ) ( 352 800 128 ) PlaceHodlerTerrain/komienbp -10.6666565 -31.999939 180 1 1
+( 352 800 192 ) ( 288 864 192 ) ( 352 800 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+}
+// brush 216
+{
+( 352 704 192 ) ( 352 768 128 ) ( 352 800 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 352 704 192 ) ( 448 704 192 ) ( 384 768 128 ) PlaceHodlerTerrain/komienbp -16 16 90 1 1
+( 384 768 128 ) ( 384 800 128 ) ( 352 800 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 352 800 192 ) ( 448 800 192 ) ( 448 704 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 384 800 128 ) ( 448 800 192 ) ( 352 800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 384 800 128 ) ( 384 768 128 ) ( 448 704 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 217
+{
+( -128 416 192 ) ( -128 320 192 ) ( -64 384 128 ) PlaceHodlerTerrain/komienbp -16 16 0 1 1
+( -32 384 128 ) ( -64 384 128 ) ( -128 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -64 384 128 ) ( -32 384 128 ) ( -32 416 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -32 416 192 ) ( -32 320 192 ) ( -128 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -128 416 192 ) ( -64 416 128 ) ( -32 416 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -32 384 128 ) ( -32 320 192 ) ( -32 416 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 218
+{
+( -64 768 128 ) ( -64 800 128 ) ( -128 864 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -64 768 128 ) ( -128 768 192 ) ( -32 768 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -64 800 128 ) ( -64 768 128 ) ( -32 768 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -32 768 192 ) ( -128 768 192 ) ( -128 864 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -32 864 192 ) ( -128 864 192 ) ( -64 800 128 ) PlaceHodlerTerrain/komienbp -16 16 270 1 1
+( -32 864 192 ) ( -32 800 128 ) ( -32 768 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+}
+// brush 219
+{
+( 832 480 192 ) ( 832 320 192 ) ( 832 384 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 832 384 128 ) ( 832 320 192 ) ( 928 320 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 832 416 128 ) ( 832 384 128 ) ( 864 384 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 928 320 192 ) ( 832 320 192 ) ( 832 480 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 832 480 192 ) ( 832 416 128 ) ( 864 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 864 384 128 ) ( 928 320 192 ) ( 928 480 192 ) PlaceHodlerTerrain/komienbp 16 -16 180 1 1
+}
+// brush 220
+{
+( 416 224 192 ) ( 416 224 128 ) ( 416 288 192 ) PlaceHodlerTerrain/komienbp 31.999985 0 180 1 -1
+( 416 224 192 ) ( 992 224 192 ) ( 992 224 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 416 288 192 ) ( 992 288 192 ) ( 992 224 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 992 224 128 ) ( 992 288 192 ) ( 416 288 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 992 224 192 ) ( 992 288 192 ) ( 992 224 128 ) PlaceHodlerTerrain/komienbp 31.999985 0 180 1 -1
+}
+// brush 221
+{
+( 1056 224 128 ) ( 992 288 192 ) ( 1056 224 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 1056 288 128 ) ( 992 288 192 ) ( 1056 224 128 ) PlaceHodlerTerrain/komienbp 23.466675 10.666595 180 1 1
+( 1056 224 192 ) ( 992 288 192 ) ( 1056 288 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 1056 288 192 ) ( 992 288 192 ) ( 1056 288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 1056 224 192 ) ( 1056 288 192 ) ( 1056 288 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 222
+{
+( 992 288 192 ) ( 992 224 192 ) ( 992 224 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 992 224 128 ) ( 992 224 192 ) ( 1056 224 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+( 1056 224 192 ) ( 992 224 192 ) ( 992 288 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 992 288 192 ) ( 992 224 128 ) ( 1056 224 128 ) PlaceHodlerTerrain/komienbp 21.333313 0 180 1 1
+( 1056 224 192 ) ( 992 288 192 ) ( 1056 224 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 223
+{
+( 1056 288 128 ) ( 1056 896 128 ) ( 992 896 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 992 288 192 ) ( 1056 288 192 ) ( 1056 288 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 896 192 ) ( 1056 896 192 ) ( 1056 288 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 1056 896 128 ) ( 1056 896 192 ) ( 992 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 1056 288 192 ) ( 1056 896 192 ) ( 1056 896 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 224
+{
+( 992 960 192 ) ( 992 896 192 ) ( 992 960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 992 960 128 ) ( 992 896 192 ) ( 1056 960 128 ) PlaceHodlerTerrain/komienbp 23.466797 -21.333435 270 1 1
+( 1056 960 192 ) ( 992 896 192 ) ( 992 960 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 1056 960 192 ) ( 992 960 192 ) ( 992 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 1056 960 128 ) ( 992 896 192 ) ( 1056 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 225
+{
+( 992 896 192 ) ( 1056 896 128 ) ( 1056 960 128 ) PlaceHodlerTerrain/komienbp 21.333374 0 270 1 1
+( 1056 960 192 ) ( 992 896 192 ) ( 1056 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 896 192 ) ( 1056 896 192 ) ( 1056 896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 1056 960 192 ) ( 1056 896 192 ) ( 992 896 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 1056 896 128 ) ( 1056 896 192 ) ( 1056 960 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+}
+// brush 226
+{
+( 1056 992 128 ) ( 992 1056 192 ) ( 1056 992 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 1056 1056 128 ) ( 992 1056 192 ) ( 1056 992 128 ) PlaceHodlerTerrain/komienbp -8.533325 10.666626 180 1 1
+( 1056 992 192 ) ( 992 1056 192 ) ( 1056 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 1056 1056 192 ) ( 992 1056 192 ) ( 1056 1056 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 1056 992 192 ) ( 1056 1056 192 ) ( 1056 1056 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 227
+{
+( 992 1056 192 ) ( 992 992 192 ) ( 992 992 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 992 992 128 ) ( 992 992 192 ) ( 1056 992 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 180 1 -1
+( 1056 992 192 ) ( 992 992 192 ) ( 992 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 992 1056 192 ) ( 992 992 128 ) ( 1056 992 128 ) PlaceHodlerTerrain/komienbp -10.666687 0 180 1 1
+( 1056 992 192 ) ( 992 1056 192 ) ( 1056 992 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 228
+{
+( 992 1152 192 ) ( 992 1088 192 ) ( 992 1152 128 ) PlaceHodlerTerrain/komienbp 31.999878 0 180 1 -1
+( 992 1152 128 ) ( 992 1088 192 ) ( 1056 1152 128 ) PlaceHodlerTerrain/komienbp 23.466675 10.666565 270 1 1
+( 1056 1152 192 ) ( 992 1088 192 ) ( 992 1152 192 ) PlaceHodlerTerrain/komienbp 31.999878 0 270 1 1
+( 1056 1152 192 ) ( 992 1152 192 ) ( 992 1152 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 1056 1152 128 ) ( 992 1088 192 ) ( 1056 1152 192 ) PlaceHodlerTerrain/komienbp -31.999878 0 0 1 1
+}
+// brush 229
+{
+( 992 1088 192 ) ( 1056 1088 128 ) ( 1056 1152 128 ) PlaceHodlerTerrain/komienbp 21.333374 0 270 1 1
+( 1056 1152 192 ) ( 992 1088 192 ) ( 1056 1152 128 ) PlaceHodlerTerrain/komienbp -31.999878 0 0 1 1
+( 992 1088 192 ) ( 1056 1088 192 ) ( 1056 1088 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 1056 1152 192 ) ( 1056 1088 192 ) ( 992 1088 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 1056 1088 128 ) ( 1056 1088 192 ) ( 1056 1152 192 ) PlaceHodlerTerrain/komienbp 29.8667 0 180 1 -1
+}
+// brush 230
+{
+( -992 1152 128 ) ( -992 1152 192 ) ( -992 1088 192 ) PlaceHodlerTerrain/komienbp -31.999878 0 0 1 1
+( 992 1088 192 ) ( 992 1152 128 ) ( -992 1152 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -992 1152 192 ) ( 992 1152 192 ) ( 992 1088 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 1152 128 ) ( 992 1152 192 ) ( -992 1152 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 1088 192 ) ( 992 1152 192 ) ( 992 1152 128 ) PlaceHodlerTerrain/komienbp -31.999878 0 0 1 1
+}
+// brush 231
+{
+( 416 128 192 ) ( 416 -608 192 ) ( 416 -608 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 416 -608 192 ) ( 480 -608 192 ) ( 416 -608 128 ) PlaceHodlerTerrain/komienbp -31.99997 0 180 1 -1
+( 416 128 192 ) ( 480 128 192 ) ( 480 -608 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 416 128 128 ) ( 480 128 192 ) ( 416 128 192 ) PlaceHodlerTerrain/komienbp -31.99997 0 180 1 -1
+( 480 -608 192 ) ( 480 128 192 ) ( 416 128 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 232
+{
+( 480 192 192 ) ( 480 128 192 ) ( 480 192 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 480 192 128 ) ( 480 128 192 ) ( 992 128 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 128 192 ) ( 480 128 192 ) ( 480 192 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 192 192 ) ( 480 192 192 ) ( 480 192 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 192 192 ) ( 992 192 128 ) ( 992 128 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 233
+{
+( -416 256 128 ) ( -416 256 192 ) ( -416 192 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -256 192 192 ) ( -256 256 128 ) ( -416 256 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -416 256 192 ) ( -256 256 192 ) ( -256 192 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -256 256 128 ) ( -256 256 192 ) ( -416 256 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -256 192 192 ) ( -256 256 192 ) ( -256 256 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 234
+{
+( -224 896 192 ) ( -224 288 192 ) ( -224 288 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -224 288 192 ) ( -160 288 192 ) ( -224 288 128 ) PlaceHodlerTerrain/komienbp 31.999985 0 180 1 -1
+( -224 896 192 ) ( -160 896 192 ) ( -160 288 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -224 896 128 ) ( -160 896 192 ) ( -224 896 192 ) PlaceHodlerTerrain/komienbp 31.999985 0 180 1 -1
+( -224 896 128 ) ( -224 288 128 ) ( -160 288 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 235
+{
+( -224 960 192 ) ( -224 896 192 ) ( -224 896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -224 896 192 ) ( -160 896 192 ) ( -224 896 128 ) PlaceHodlerTerrain/komienbp -31.999954 0 0 1 1
+( -224 960 192 ) ( -160 896 192 ) ( -224 896 192 ) PlaceHodlerTerrain/komienbp -31.999954 0 0 1 1
+( -224 896 128 ) ( -160 896 192 ) ( -224 960 128 ) PlaceHodlerTerrain/komienbp -8.533279 -21.333435 0 1 1
+( -224 960 128 ) ( -160 896 192 ) ( -224 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 236
+{
+( -224 960 192 ) ( -160 896 192 ) ( -224 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -160 896 192 ) ( -160 960 128 ) ( -224 960 128 ) PlaceHodlerTerrain/komienbp -10.666611 0 0 1 1
+( -224 960 192 ) ( -160 960 192 ) ( -160 896 192 ) PlaceHodlerTerrain/komienbp -31.999985 0 0 1 1
+( -160 960 128 ) ( -160 960 192 ) ( -224 960 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 0 1 1
+( -160 896 192 ) ( -160 960 192 ) ( -160 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 237
+{
+( -256 352 128 ) ( -256 960 128 ) ( -320 960 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -320 352 192 ) ( -256 352 192 ) ( -256 352 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -320 960 192 ) ( -256 960 192 ) ( -256 352 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -256 960 128 ) ( -256 960 192 ) ( -320 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -256 352 192 ) ( -256 960 192 ) ( -256 960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 238
+{
+( -224 992 192 ) ( -224 992 128 ) ( -224 1056 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( -224 992 192 ) ( 352 992 192 ) ( 352 992 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -224 1056 192 ) ( 352 1056 192 ) ( 352 992 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 352 992 128 ) ( 352 1056 192 ) ( -224 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 352 992 192 ) ( 352 1056 192 ) ( 352 992 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+}
+// brush 239
+{
+( 384 960 192 ) ( 384 800 192 ) ( 384 800 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 384 800 192 ) ( 448 800 192 ) ( 384 800 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 384 960 192 ) ( 448 960 192 ) ( 448 800 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 384 960 128 ) ( 448 960 192 ) ( 384 960 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 448 800 192 ) ( 448 960 192 ) ( 384 960 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 240
+{
+( 544 416 128 ) ( 544 960 128 ) ( 480 960 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 480 416 192 ) ( 544 416 192 ) ( 544 416 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 480 960 192 ) ( 544 960 192 ) ( 544 416 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 544 960 128 ) ( 544 960 192 ) ( 480 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 544 416 192 ) ( 544 960 192 ) ( 544 960 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 241
+{
+( 576 384 128 ) ( 576 384 192 ) ( 576 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 832 320 192 ) ( 832 384 128 ) ( 576 384 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 576 384 192 ) ( 832 384 192 ) ( 832 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 832 384 128 ) ( 832 384 192 ) ( 576 384 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 832 320 192 ) ( 832 384 192 ) ( 832 384 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 242
+{
+( 640 960 128 ) ( 640 960 192 ) ( 640 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 896 192 ) ( 992 960 128 ) ( 640 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 640 960 192 ) ( 992 960 192 ) ( 992 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 960 128 ) ( 992 960 192 ) ( 640 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 896 192 ) ( 992 960 192 ) ( 992 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 243
+{
+( 576 960 192 ) ( 576 896 192 ) ( 576 896 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 576 896 192 ) ( 640 896 192 ) ( 576 896 128 ) PlaceHodlerTerrain/komienbp -31.999939 0 0 1 1
+( 576 960 192 ) ( 640 896 192 ) ( 576 896 192 ) PlaceHodlerTerrain/komienbp -31.999939 0 0 1 1
+( 576 896 128 ) ( 640 896 192 ) ( 576 960 128 ) PlaceHodlerTerrain/komienbp -8.533264 10.666565 0 1 1
+( 576 960 128 ) ( 640 896 192 ) ( 576 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 244
+{
+( 576 960 192 ) ( 640 896 192 ) ( 576 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 640 896 192 ) ( 640 960 128 ) ( 576 960 128 ) PlaceHodlerTerrain/komienbp -10.666626 0 0 1 1
+( 576 960 192 ) ( 640 960 192 ) ( 640 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 640 960 128 ) ( 640 960 192 ) ( 576 960 192 ) PlaceHodlerTerrain/komienbp -2.1333008 0 0 1 1
+( 640 896 192 ) ( 640 960 192 ) ( 640 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 245
+{
+( 576 416 128 ) ( 640 480 192 ) ( 576 416 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 576 416 192 ) ( 640 416 192 ) ( 640 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 576 416 192 ) ( 640 480 192 ) ( 640 416 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 640 416 128 ) ( 640 480 192 ) ( 576 416 128 ) PlaceHodlerTerrain/komienbp 23.466705 -21.333374 90 1 1
+( 640 416 192 ) ( 640 480 192 ) ( 640 416 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 246
+{
+( 576 480 128 ) ( 576 480 192 ) ( 576 416 192 ) PlaceHodlerTerrain/komienbp 29.86676 0 0 1 1
+( 576 416 192 ) ( 576 480 192 ) ( 640 480 192 ) PlaceHodlerTerrain/komienbp 0 -31.999939 90 1 1
+( 640 480 192 ) ( 576 480 192 ) ( 576 480 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( 576 416 192 ) ( 640 480 192 ) ( 576 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 640 480 192 ) ( 576 480 128 ) ( 576 416 128 ) PlaceHodlerTerrain/komienbp 21.333405 -31.999939 90 1 1
+}
+// brush 247
+{
+( 576 896 192 ) ( 576 480 192 ) ( 576 480 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 576 480 192 ) ( 640 480 192 ) ( 576 480 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 576 896 192 ) ( 640 896 192 ) ( 640 480 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 576 896 128 ) ( 640 896 192 ) ( 576 896 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 640 480 192 ) ( 640 896 192 ) ( 576 896 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 248
+{
+( 640 416 192 ) ( 640 416 128 ) ( 640 480 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 640 416 192 ) ( 832 416 192 ) ( 832 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 640 480 192 ) ( 832 480 192 ) ( 832 416 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 832 416 128 ) ( 832 480 192 ) ( 640 480 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 832 416 192 ) ( 832 480 192 ) ( 832 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 249
+{
+( 384 576 192 ) ( 384 416 192 ) ( 384 416 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 384 416 192 ) ( 448 416 192 ) ( 384 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 384 576 192 ) ( 448 576 192 ) ( 448 416 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( 384 576 128 ) ( 448 576 192 ) ( 384 576 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 448 416 192 ) ( 448 576 192 ) ( 384 576 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 250
+{
+( 352 608 128 ) ( 352 672 192 ) ( 352 576 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 448 576 192 ) ( 384 576 128 ) ( 352 576 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 -1
+( 384 608 128 ) ( 352 608 128 ) ( 352 576 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 352 576 192 ) ( 352 672 192 ) ( 448 672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 352 608 128 ) ( 384 608 128 ) ( 448 672 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 448 576 192 ) ( 448 672 192 ) ( 384 608 128 ) PlaceHodlerTerrain/komienbp 16 16 180 1 1
+}
+// brush 251
+{
+( 128 608 128 ) ( 64 672 192 ) ( 64 512 192 ) PlaceHodlerTerrain/komienbp -16 -16 0 1 1
+( 160 512 192 ) ( 160 576 128 ) ( 128 576 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 160 576 128 ) ( 160 608 128 ) ( 128 608 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 64 672 192 ) ( 160 672 192 ) ( 160 512 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 160 608 128 ) ( 160 672 192 ) ( 64 672 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 160 512 192 ) ( 160 672 192 ) ( 160 608 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 252
+{
+( -32 384 128 ) ( -32 384 192 ) ( -32 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 320 192 ) ( 352 384 128 ) ( -32 384 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -32 384 192 ) ( 352 384 192 ) ( 352 320 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 384 128 ) ( 352 384 192 ) ( -32 384 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 320 192 ) ( 352 384 192 ) ( 352 384 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 253
+{
+( -32 704 192 ) ( -32 480 192 ) ( -32 480 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -32 480 192 ) ( 32 480 192 ) ( -32 480 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -32 704 192 ) ( 32 704 192 ) ( 32 480 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -32 704 128 ) ( 32 704 192 ) ( -32 704 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 32 480 192 ) ( 32 704 192 ) ( -32 704 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+// brush 254
+{
+( -128 768 192 ) ( -128 416 192 ) ( -64 416 128 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -128 416 192 ) ( -64 416 192 ) ( -64 416 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -128 768 192 ) ( -64 768 192 ) ( -64 416 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( -64 768 128 ) ( -64 768 192 ) ( -128 768 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -64 416 192 ) ( -64 768 192 ) ( -64 768 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 255
+{
+( 32 768 128 ) ( 32 768 192 ) ( 32 704 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 704 192 ) ( 352 768 128 ) ( 32 768 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 32 768 192 ) ( 352 768 192 ) ( 352 704 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 768 128 ) ( 352 768 192 ) ( 32 768 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 704 192 ) ( 352 768 192 ) ( 352 768 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 256
+{
+( 160 576 128 ) ( 160 576 192 ) ( 160 512 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 288 512 192 ) ( 288 576 128 ) ( 160 576 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 160 576 192 ) ( 288 576 192 ) ( 288 512 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 288 576 128 ) ( 288 576 192 ) ( 160 576 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 288 512 192 ) ( 288 576 192 ) ( 288 576 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 257
+{
+( 32 416 192 ) ( 32 416 128 ) ( 32 480 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 32 416 192 ) ( 288 416 192 ) ( 288 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 32 480 192 ) ( 288 480 192 ) ( 288 416 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 288 416 128 ) ( 288 480 192 ) ( 32 480 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 288 416 192 ) ( 288 480 192 ) ( 288 416 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 258
+{
+( -32 800 192 ) ( -32 800 128 ) ( -32 864 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( -32 800 192 ) ( 288 800 192 ) ( 288 800 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -32 864 192 ) ( 288 864 192 ) ( 288 800 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 288 800 128 ) ( 288 864 192 ) ( -32 864 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 288 800 192 ) ( 288 864 192 ) ( 288 800 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+}
+// brush 259
+{
+( -160 960 128 ) ( -160 960 192 ) ( -160 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 288 896 192 ) ( 288 960 128 ) ( -160 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -160 960 192 ) ( 288 960 192 ) ( 288 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 288 960 128 ) ( 288 960 192 ) ( -160 960 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 288 896 192 ) ( 288 960 192 ) ( 288 960 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+}
+// brush 260
+{
+( 576 992 192 ) ( 576 992 128 ) ( 576 1056 192 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+( 576 992 192 ) ( 992 992 192 ) ( 992 992 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( 576 1056 192 ) ( 992 1056 192 ) ( 992 992 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 992 992 128 ) ( 992 1056 192 ) ( 576 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 1
+( 992 992 192 ) ( 992 1056 192 ) ( 992 992 128 ) PlaceHodlerTerrain/komienbp 31.999939 0 180 1 -1
+}
+// brush 261
+{
+( 1056 1056 128 ) ( 1056 1088 128 ) ( 992 1088 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 992 1056 192 ) ( 1056 1056 192 ) ( 1056 1056 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 992 1088 192 ) ( 1056 1088 192 ) ( 1056 1056 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 1056 1088 128 ) ( 1056 1088 192 ) ( 992 1088 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 1056 1056 192 ) ( 1056 1088 192 ) ( 1056 1088 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 262
+{
+( 352 864 128 ) ( 352 896 128 ) ( 288 896 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 288 864 192 ) ( 352 864 192 ) ( 352 864 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 288 896 192 ) ( 352 896 192 ) ( 352 864 192 ) PlaceHodlerTerrain/komienbp 0 0 270 1 1
+( 352 896 128 ) ( 352 896 192 ) ( 288 896 192 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( 352 864 192 ) ( 352 896 192 ) ( 352 896 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+}
+// brush 263
+{
+( -1056 1152 224 ) ( -1056 -1152 224 ) ( -1056 -1152 192 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1056 -1152 224 ) ( 1056 -1152 224 ) ( 1056 -1152 192 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1056 -1152 192 ) ( 1056 1152 192 ) ( -1056 1152 192 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( -1056 1152 224 ) ( 1056 1152 224 ) ( 1056 -1152 224 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1056 1152 192 ) ( 1056 1152 224 ) ( -1056 1152 224 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+( 1056 -1152 224 ) ( 1056 1152 224 ) ( 1056 1152 192 ) PlaceHodlerTerrain/planks 0 0 0 1 1
+}
+// brush 264
+{
+( 544 992 128 ) ( 544 960 128 ) ( 544 960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 544 960 128 ) ( 1056 960 128 ) ( 1056 960 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 1056 960 0 ) ( 1056 992 0 ) ( 544 992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 544 992 128 ) ( 1056 992 128 ) ( 1056 960 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 1056 992 0 ) ( 1056 992 128 ) ( 544 992 128 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+( 1056 960 128 ) ( 1056 992 128 ) ( 1056 992 0 ) PlaceHodlerTerrain/bookshelf 0 0 0 1 1
+}
+// brush 265
+{
+( -1056 -768 192 ) ( -1056 -800 192 ) ( -1056 -800 128 ) PlaceHodlerTerrain/komienbp 0 0 0 1 1
+( -1056 -800 192 ) ( -992 -800 192 ) ( -1056 -800 128 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -1056 -768 192 ) ( -992 -768 192 ) ( -992 -800 192 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+( -1056 -768 128 ) ( -992 -768 192 ) ( -1056 -768 192 ) PlaceHodlerTerrain/komienbp 0 0 180 1 -1
+( -992 -800 192 ) ( -992 -768 192 ) ( -1056 -768 128 ) PlaceHodlerTerrain/komienbp 0 0 90 1 1
+}
+}

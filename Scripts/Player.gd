@@ -28,7 +28,7 @@ func _input(event: InputEvent) -> void:
 		$Head.rotation.x = clamp($Head.rotation.x, deg2rad(-40), deg2rad(40))
 
 func _process(delta: float) -> void:
-	if movement_direction != Vector3():
+	if movement_direction != Vector3() and full_contact:
 		if $FootstepTimer.time_left <= 0:
 			$FootstepSound.pitch_scale = rand_range(0.8, 1.2)
 			$FootstepSound.play()
