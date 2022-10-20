@@ -10,7 +10,7 @@ var player_turn : bool
 onready var interface = $Camera/HUD
 
 func _ready():
-	pass
+	$Camera/AnimationPlayer.play("Wiggle")
 
 func _process(delta):
 	if player_turn:

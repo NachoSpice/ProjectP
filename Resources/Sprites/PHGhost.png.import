@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/bookshelfx32.png-3f9c6f5c633fb2c97b02d7460b1d2592.s3tc.stex"
-path.etc2="res://.import/bookshelfx32.png-3f9c6f5c633fb2c97b02d7460b1d2592.etc2.stex"
+path.s3tc="res://.import/PHGhost.png-10860838a3e10590c48d4a619ae08b35.s3tc.stex"
+path.etc2="res://.import/PHGhost.png-10860838a3e10590c48d4a619ae08b35.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/PlaceHodlerTerrain/bookshelfx32.png"
-dest_files=[ "res://.import/bookshelfx32.png-3f9c6f5c633fb2c97b02d7460b1d2592.s3tc.stex", "res://.import/bookshelfx32.png-3f9c6f5c633fb2c97b02d7460b1d2592.etc2.stex" ]
+source_file="res://Resources/Sprites/PHGhost.png"
+dest_files=[ "res://.import/PHGhost.png-10860838a3e10590c48d4a619ae08b35.s3tc.stex", "res://.import/PHGhost.png-10860838a3e10590c48d4a619ae08b35.etc2.stex" ]
 
 [params]
 
